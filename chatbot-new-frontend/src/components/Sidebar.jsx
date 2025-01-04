@@ -18,6 +18,7 @@ import { useRouter } from 'next/navigation';
 
 
 import delhi_mentor_male from "@/photos/delhi_mentor_male.jpeg";
+import delhi_mentor_female from "@/photos/delhi_mentor_female.jpeg";
 import delhi_friend_male from "@/photos/delhi_friend_male.jpeg";
 import delhi_friend_female from "@/photos/delhi_friend_female.jpeg";
 import delhi_romantic_male from "@/photos/delhi_romantic_male.jpeg";
