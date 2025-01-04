@@ -49,7 +49,7 @@ export default function Home() {
           </div>
         </div>
         <div className="text-center mt-20">
-          <Link href="/signup">
+          <Link href="/chat">
           <HeaderLabel />
           </Link>
           <p className="font-light text mt-20">I-venture @ ISB presents to you</p>
