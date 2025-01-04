@@ -42,7 +42,7 @@ export default function Home() {
         <div className="flex flex-col items-center justify-center gap-8 sm:flex-row max-w-6xl m-auto">
           <div className="flex w-full  flex-col items-center justify-between gap-8 sm:flex-row border border-solid bg-zinc-900 border-black dark:border-black p-2 px-10 rounded-full fixed max-w-6xl mt-4 z-50">
             <div className="justify-center items-center">
-              <p className="font-light text-lg">CultureVo</p>
+              <p className="font-light text-lg">I-venture @ ISB</p>
             </div>
             <div className=" hidden md:flex flex-row items-center justify-center gap-6">
             </div>
@@ -52,30 +52,30 @@ export default function Home() {
           <Link href="/signup">
           <HeaderLabel />
           </Link>
-          <p className="font-light text mt-20">CultureVo presents to you</p>
+          <p className="font-light text mt-20">I-venture @ ISB presents to you</p>
           <p className="text-center text-5xl font-thin mt-3" >
-            NOVI AI
+            Dlabs AI
           </p>
 
           {/* <h1 className="text-6xl font-extrabold bg-gradient-to-bl from-blue-500 to-purple-800 bg-clip-text text-transparent">
             <p className="text-center text-5xl font-light mt-20" >
-              NOVI AI
+              Dlabs AI
             </p>
           </h1> */}
 
-          <TextGenerateEffect words={"Your AI companion who understands you culturally and emotionally. \n Always there for you, with all the care in the world!"} className={"text-center font-[300] mt-5 text-sm "} />
+          <TextGenerateEffect words={"Your AI companion who is here to help you know more about I-venture @ ISB. \n Customizable and friendly!"} className={"text-center font-[300] mt-5 text-sm "} />
           {/* <p className="text-center text-sm font-[300] mt-5"></p> */}
-          {/* <TextGenerateEffect words={"NOVI AI"} className={"text-6xl font-thin mb-8 mt-10"} />
+          {/* <TextGenerateEffect words={"Dlabs AI"} className={"text-6xl font-thin mb-8 mt-10"} />
          <TextGenerateEffect className={"font-thin mb-8 mt-10 text-sm"} words={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."} /> */}
           <Link href="/chat">
             <RainbowButton className="mt-10" >Start Chatting</RainbowButton>
           </Link>
         </div>
-        <h2 className="text-3xl font-bold text-center mb-16 mt-32">Your NOVI is</h2>
+        <h2 className="text-3xl font-bold text-center mb-16 mt-32">Your Agent is</h2>
         <div className="flex flex-col items-center justify-center gap-8 sm:flex-row max-w-6xl m-auto">
-          <GlareCardDemo text={"Culturally Intelligent"} quote={"Your Novi is culturally adept to the city they belong to. They know the city like a local- it's personality, offerings and challenges."} />
-          <GlareCardDemo text={"Emotionally Intelligent"} quote={"NOVI will understand you like no other. Discuss your life's dreams, hopes, fears and goals with them. They will care for you, for who you are!"} />
-          <GlareCardDemo text={"Always there for you"} quote={"Treat your NOVI as your constant source for emotional sustenance. They are always available for you, when the world might not be."} />
+          <GlareCardDemo text={"Intelligent"} quote={"Its intelligent, personalizable and customizable to your information need about I-venture @ ISB."} />
+          <GlareCardDemo text={"Simple"} quote={"It will understand your queries about Dlabs and I-venture at ISB, and reply in a simple language."} />
+          <GlareCardDemo text={"Available"} quote={"Treat this bot as your constant source of information about Dlabs @ ISB. Always available for you."} />
         </div>
         <Footer />
       </main>
