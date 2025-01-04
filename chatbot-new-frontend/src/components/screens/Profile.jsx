@@ -32,7 +32,7 @@ function Profile() {
         </div>
       </div>
       <p className='text-center text-sm underline cursor-pointer' onClick={handleLogout}>
-        Log out
+       Go to I-Venture !!
       </p>
     </div>
   );
