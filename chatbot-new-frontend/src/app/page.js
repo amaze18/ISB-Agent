@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div suppressHydrationWarning className="h-screen flex flex-col items-center justify-center gap-16 font-[family-name:var(--font-geist-sans)] relative overflow-x-hidden">
 
-      <Vortex particleCount={60} className="absolute top-0 left-0 w-full h-full z-0" /> 
+      <Vortex particleCount={30} className="absolute top-0 left-0 w-full h-full z-0" /> 
       {/* <AnimatedGridPattern
         numSquares={30}
         maxOpacity={0.1}
