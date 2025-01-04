@@ -81,15 +81,16 @@ export function SidebarDemo() {
   const [selectedLanguage, setSelectedLanguage] = useState("English");
 
   const traits = [
-    "Bold/Adventurous",
     "Positive",
+    "Entrepreneurial",
     "Curious",
     "Intellectual Conversations",
     "Gentle/Quiet",
     "Introverted",
     "Open Minded",
     "Outgoing",
-    "Knowledgable"
+    "Knowledgeable",
+    "Bold/Adventurous"
   ];
 
 
