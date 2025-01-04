@@ -17,8 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "I-Venture @ ISB",
-  description: "Your AI companion who is here to help you know more about I-venture @ ISB. 
- Customizable and friendly !!",
+  description: "Your AI companion who is here to help you know more about I-venture @ ISB. Customizable and friendly !!",
 };
 
 export default function RootLayout({ children }) {
