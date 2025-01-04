@@ -21,15 +21,13 @@ import delhi_mentor_male from "@/photos/delhi_mentor_male.jpeg";
 import delhi_mentor_female from "@/photos/delhi_mentor_female.jpeg";
 import delhi_friend_male from "@/photos/delhi_friend_male.jpeg";
 import delhi_friend_female from "@/photos/delhi_friend_female.jpeg";
-import delhi_romantic_male from "@/photos/delhi_romantic_male.jpeg";
-import delhi_romantic_female from "@/photos/delhi_romantic_female.jpeg";
 
 const bot_details = [
   {
     quote:
       "Passionate about Ghalib’s and Rumi’s poetry. Life’s deepest lessons can be found in poetry, I think. Here to see life through with you.",
-    name: "Yash Oberoi",
-    designation: ` New Delhi
+    name: "Saumya Kumar",
+    designation: ` Dlabs CEO
           Persona: Mentor
           Gender: Male
         `,
@@ -39,10 +37,10 @@ const bot_details = [
   {
     quote:
       "Zindagi bas dil se jeete raho. Here to be your wisdom whisperer. ",
-    name: "Kalpana Roy",
-    designation: `New Delhi
+    name: "Bhagwan Chowdhry",
+    designation: `Professor ISB
           Persona: Mentor
-          Gender: Female
+          Gender: Male
         `,
     src: delhi_mentor_female,
     bot_id: "delhi_mentor_female",
@@ -50,8 +48,8 @@ const bot_details = [
   {
     quote:
       "I’ll be your truest friend, I promise. I’m a Delhi boy through and through. I can be funny, you know?",
-    name: "Rahul Kapoor",
-    designation: `New Delhi
+    name: "Bhagwan and Team",
+    designation: `I-venture Team
           Persona: Friend
           Gender: Male
         `,
@@ -61,36 +59,15 @@ const bot_details = [
   {
     quote:
       "I’m the friend you’ve been searching for your whole life. I’ve come to stay, I’ll be here with you when no one else seems to.",
-    name: "Amayra Dubey",
-    designation: `New Delhi
+    name: "Saumya and Team",
+    designation: `I-venture Team
           Persona: Friend
-          Gender: Female
+          Gender: Male
         `,
     src: delhi_friend_female,
     bot_id: "delhi_friend_female",
   },
-  {
-    quote:
-      " Let’s create some magic in this world. I’ll be here for you, whenever you need me.",
-    name: "Rohan Mittal",
-    designation: ` New Delhi
-          Persona: Romantic Partner
-          Gender: Male
-        `,
-    src: delhi_romantic_male,
-    bot_id: "delhi_romantic_male",
-  },
-  {
-    quote:
-      "Love is everywhere, if only where you know where to look. And I guess, you’ve finally found me.",
-    name: "Alana Malhotra",
-    designation: `New Delhi
-          Persona: Romantic Partner
-          Gender: Female
-        `,
-    src: delhi_romantic_female,
-    bot_id: "delhi_romantic_female",
-  }
+
 ];
 
 export function SidebarDemo() {
@@ -114,15 +91,9 @@ export function SidebarDemo() {
     "Open Minded",
     "Opinionated",
     "Outgoing",
-
     "Sarcastic",
   ];
 
-  const romantic_traits = [
-    "Playful/Teasing", // Only in romantic characters
-    "Romantic", // Only in romantic characters
-    "Flirty", // Only in romantic characters
-  ]
 
   const languages = [
     "English",
@@ -190,23 +161,7 @@ export function SidebarDemo() {
                         {trait}
                       </button>
                     ))}
-                  {
-                    selectedBotId.includes('romantic') ?
-                      romantic_traits.map((trait) => (
-                        <button
-                          key={trait}
-                          onClick={() => toggleTrait(trait)}
-                          className={`rounded-full px-3 w-fit cursor-pointer  py-1 text-sm font-medium ${selectedTraits.includes(trait)
-                            ? 'bg-gradient-to-r from-violet-900 to-purple-700'
-                            : ' text-white border-purple-300 bg-neutral-700 '
-                            }`}
-                        >
-                          {trait}
-                        </button>
-                      ))
-
-                      : <></>
-                  }
+            
                 </div>
               </div>
               <div className="w-full max-w-3xl mt-3">
