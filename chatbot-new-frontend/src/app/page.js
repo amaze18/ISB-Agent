@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div suppressHydrationWarning className="h-screen flex flex-col items-center justify-center gap-16 font-[family-name:var(--font-geist-sans)] relative overflow-x-hidden">
 
-      {/* <Vortex particleCount={60} className="absolute top-0 left-0 w-full h-full z-0" /> */}
+      <Vortex particleCount={60} className="absolute top-0 left-0 w-full h-full z-0" /> 
       {/* <AnimatedGridPattern
         numSquares={30}
         maxOpacity={0.1}
@@ -30,7 +30,7 @@ export default function Home() {
           "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12",
         )}
       /> */}
-      <Meteors number={20} className="absolute top-0 left-0 w-full h-full z-0" />
+  {/* <Meteors number={20} className="absolute top-0 left-0 w-full h-full z-0" />" */}
       <Particles
         className="absolute inset-0 z-0"
         quantity={40}
