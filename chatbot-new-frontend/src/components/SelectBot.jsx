@@ -10,71 +10,49 @@ import delhi_romantic_female from "@/photos/delhi_romantic_female.jpeg";
 
 export function SelectBot({onClose}) {
   const testimonials = [
-    {
-      quote:
-        "Passionate about Ghalib’s and Rumi’s poetry. Life’s deepest lessons can be found in poetry, I think. Here to see life through with you.",
-      name: "Yash Oberoi",
-      designation: ` New Delhi
-        Persona: Mentor
-        Gender: Male
-      `,
-      src: delhi_mentor_male,
-      bot_id: "delhi_mentor_male",
-    },
-    {
-      quote:
-        "Zindagi bas dil se jeete raho. Here to be your wisdom whisperer. ",
-      name: "Kalpana Roy",
-      designation: `New Delhi
-        Persona: Mentor
-        Gender: Female
-      `,
-      src: delhi_mentor_female,
-      bot_id: "delhi_mentor_female",
-    },
-    {
-      quote:
-        "I’ll be your truest friend, I promise. I’m a Delhi boy through and through. I can be funny, you know?",
-      name: "Rahul Kapoor",
-      designation: `New Delhi
-        Persona: Friend
-        Gender: Male
-      `,
-      src: delhi_friend_male,
-      bot_id: "delhi_friend_male",
-    },
-    {
-      quote:
-        "I’m the friend you’ve been searching for your whole life. I’ve come to stay, I’ll be here with you when no one else seems to.",
-      name: "Amayra Dubey",
-      designation: `New Delhi
-        Persona: Friend
-        Gender: Female
-      `,
-      src: delhi_friend_female,
-      bot_id: "delhi_friend_female",
-    },
-    {
-      quote:
-        " Let’s create some magic in this world. I’ll be here for you, whenever you need me.",
-      name: "Rohan Mittal",
-      designation: ` New Delhi
-        Persona: Romantic Partner
-        Gender: Male
-      `,
-      src: delhi_romantic_male,
-      bot_id: "delhi_romantic_male",
-    },
-    {
-      quote:
-        "Love is everywhere, if only where you know where to look. And I guess, you’ve finally found me.",
-      name: "Alana Malhotra",
-      designation: `New Delhi
-        Persona: Romantic Partner
-        Gender: Female
-      `,
-      src: delhi_romantic_female,
-      bot_id: "delhi_romantic_female",
+     {
+    quote:
+      "Passionate about Entreprenuership and conntecting dots. Life’s deepest lessons can be found in building things, I think. Here to help you build your next thing.",
+    name: "Saumya Kumar",
+    designation: ` Dlabs CEO
+          Persona: Mentor
+          Gender: Male
+        `,
+    src: delhi_mentor_male,
+    bot_id: "delhi_mentor_male",
+  },
+  {
+    quote:
+      "Career academic with prolific research in finance and one of the most famous faces among students at ISB. Leading Dlabs@ISB to bring a lasting impact in the world of entreprenuership",
+    name: "Bhagwan Chowdhry",
+    designation: `Professor ISB
+          Persona: Mentor
+          Gender: Male
+        `,
+    src: delhi_mentor_female,
+    bot_id: "delhi_mentor_female",
+  },
+  {
+    quote:
+      "Bhagwan and Team can help you with your queries around entreprenuership and how I-venture at ISB can help you build on your next idea.",
+    name: "Bhagwan and Team",
+    designation: `I-venture Team
+          Persona: Friend
+          Gender: Male
+        `,
+    src: delhi_friend_male,
+    bot_id: "delhi_friend_male",
+  },
+  {
+    quote:
+      "Saumya and Team can help you with your queries around entreprenuership and how I-venture at ISB can help you build on your next idea.",
+    name: "Saumya and Team",
+    designation: `I-venture Team
+          Persona: Friend
+          Gender: Male
+        `,
+    src: delhi_friend_female,
+    bot_id: "delhi_friend_female",
     }
   ];
   return <AnimatedTestimonials suppressHydrationWarning testimonials={testimonials} onClose={onClose}/>;
