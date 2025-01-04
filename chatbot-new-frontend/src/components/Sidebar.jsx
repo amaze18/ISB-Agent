@@ -82,16 +82,14 @@ export function SidebarDemo() {
 
   const traits = [
     "Bold/Adventurous",
-    "Bubbly/Positive",
+    "Positive",
     "Curious",
-    "Funny",
     "Intellectual Conversations",
     "Gentle/Quiet",
     "Introverted",
     "Open Minded",
-    "Opinionated",
     "Outgoing",
-    "Sarcastic",
+    "Knowledgable"
   ];
 
 
