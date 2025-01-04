@@ -258,7 +258,7 @@ const Dashboard = ({ traits, language }) => {
  // }, [userDetails.name, router]);
 
   useEffect(() => {
-    setMessages([{ text: "Hello, how are you doing today ?", sender: 'bot' }]); // Reset messages to empty array
+    setMessages([{ text: "Hello, what do you want to learn today ?", sender: 'bot' }]); // Reset messages to empty array
   }, [selectedBotId]);
 
   // Add useEffect to update editablePrompts when traits or language changes
