@@ -1,0 +1,75 @@
+/* Main container for the application */
+.App {
+  text-align: center; /* Centers text within the App component */
+  font-family: 'Roboto', sans-serif; /* Sets a clean, serif font for readability */
+}
+
+/* Global styles for the body element */
+body {
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  background-color: #f5f5f5; /* Light grey background for a neutral look */
+}
+
+/* Container for the entire page layout */
+.page-container {
+  display: flex; /* Uses flexbox for layout */
+  height: 100vh; /* Full viewport height */
+}
+
+/* Main content area, grows to fill available space */
+.main-content {
+  flex-grow: 1; /* Allows the main content to expand */
+  padding: 0px; /* No padding for a clean edge */
+  overflow-y: auto; /* Enables vertical scrolling if content overflows */
+  width: calc(100vw - 300px); /* Adjusts width to account for sidebar */
+}
+
+/* Sidebar section, fixed width */
+.sidebar {
+  width: 300px; /* Fixed width for the sidebar */
+  background-color: #ffffff; /* White background for contrast */
+  padding: 20px; /* Padding inside the sidebar for spacing */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Bottom navigation bar, fixed at the bottom */
+.bottom-nav {
+  position: fixed; /* Sticks to the bottom of the viewport */
+  bottom: 0; /* Aligns to the bottom */
+  left: 0; /* Stretches from left to right */
+  right: 0; /* Stretches from left to right */
+  background-color: #ffffff; /* White background for contrast */
+  display: flex; /* Flexbox for horizontal layout */
+  justify-content: space-around; /* Evenly spaces out navigation items */
+  padding: 10px 0; /* Vertical padding for spacing */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styles for links in the bottom navigation */
+.bottom-nav a {
+  text-decoration: none; /* Removes underline from links */
+  color: #333; /* Dark grey color for readability */
+  font-size: 24px; /* Larger font size for visibility */
+}
+
+/* Active state for navigation links */
+.bottom-nav a.active {
+  color: #9610FF; /* Highlight color for active link */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .page-container {
+    flex-direction: column; /* Stacks elements vertically */
+  }
+
+  .sidebar {
+    width: 100%; /* Full width for sidebar */
+    height: auto; /* Adjusts height automatically */
+  }
+
+  .main-content {
+    margin-bottom: 60px; /* Adds space at the bottom for the fixed bottom-nav */
+  }
+}

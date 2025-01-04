@@ -1,0 +1,19 @@
+ INFO  Accepting connections at http://localhost:3000
+ HTTP  11/27/2024 8:33:06 AM 49.43.218.42 GET /chats
+ HTTP  11/27/2024 8:33:06 AM 49.43.218.42 Returned 200 in 20 ms
+ HTTP  11/27/2024 8:33:06 AM 49.43.218.42 GET /static/js/main.25b2bf0b.js
+ HTTP  11/27/2024 8:33:06 AM 49.43.218.42 Returned 304 in 3 ms
+ HTTP  11/27/2024 8:33:06 AM 49.43.218.42 GET /static/css/main.9eab937d.css
+ HTTP  11/27/2024 8:33:06 AM 49.43.218.42 Returned 304 in 2 ms
+ HTTP  11/27/2024 8:33:07 AM 49.43.218.42 GET /static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2
+ HTTP  11/27/2024 8:33:07 AM 49.43.218.42 Returned 304 in 2 ms
+ HTTP  11/27/2024 8:33:07 AM 49.43.218.42 GET /favicon.ico
+ HTTP  11/27/2024 8:33:07 AM 49.43.218.42 Returned 304 in 3 ms
+ HTTP  11/27/2024 8:33:09 AM 49.43.218.42 GET /favicon.ico
+ HTTP  11/27/2024 8:33:09 AM 49.43.218.42 Returned 304 in 1 ms
+ HTTP  11/27/2024 8:33:11 AM 49.43.218.42 GET /favicon.ico
+ HTTP  11/27/2024 8:33:11 AM 49.43.218.42 Returned 304 in 1 ms
+ HTTP  11/27/2024 8:33:12 AM 49.43.218.42 GET /favicon.ico
+ HTTP  11/27/2024 8:33:12 AM 49.43.218.42 Returned 304 in 2 ms
+ HTTP  11/27/2024 8:33:13 AM 49.43.218.42 GET /favicon.ico
+ HTTP  11/27/2024 8:33:13 AM 49.43.218.42 Returned 304 in 1 ms

@@ -1,0 +1,1623 @@
+22:47:31,38 watchfiles.main INFO 1 change detected
+22:47:38,834 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+22:47:41,217 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+22:47:41,219 root INFO Question: HEy
+22:47:41,220 root INFO Last 3 Responses: 
+22:47:41,220 root INFO Relative Info: 
+22:47:41,220 root INFO Response: Kaise ho? What's up? 😊
+22:47:43,50 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+22:47:44,627 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+22:47:47,46 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+22:47:47,48 root INFO Question: hey
+22:47:47,48 root INFO Last 3 Responses: Conversation 1:
+User: HEy
+Bot: Kaise ho? What's up? 😊
+22:47:47,49 root INFO Relative Info: delhi_friend_male:general: financial_situation - minimalist
+delhi_friend_male:general:location - Cirrus 9:Mehrauli
+delhi_friend_male:general:location:influence - Delhi's energy
+
+22:47:47,49 root INFO Response: Kya haal hai, just soaking in the Delhi energy at Cirrus 9! 😊
+22:47:47,414 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+22:47:47,422 root INFO Logged to Supabase: data=[{'id': 1345, 'user_question': 'HEy', 'bot_response': "Kaise ho? What's up? 😊", 'cit': '1766.8', 'drt': '0.0', 'rgt': '2375.92', 'personality': 'delhi_friend_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:17:47.052058', 'relative_data': ''}] count=None
+22:47:48,927 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+22:47:48,929 root INFO Saving key: delhi_friend_male:location, value: Cirrus 9 to Redis...
+22:47:49,16 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+22:47:49,18 root INFO Logged to Supabase: data=[{'id': 1346, 'user_question': 'hey', 'bot_response': 'Kya haal hai, just soaking in the Delhi energy at Cirrus 9! 😊', 'cit': '1882.2', 'drt': '240.63', 'rgt': '2178.57', 'personality': 'delhi_friend_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:17:48.948242', 'relative_data': "delhi_friend_male:general: financial_situation - minimalist\ndelhi_friend_male:general:location - Cirrus 9:Mehrauli\ndelhi_friend_male:general:location:influence - Delhi's energy\n"}] count=None
+22:47:52,103 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+22:47:54,800 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+22:47:54,802 root INFO Question: hey
+22:47:54,802 root INFO Last 3 Responses: Conversation 1:
+User: HEy
+Bot: Kaise ho? What's up? 😊
+
+Conversation 2:
+User: hey
+Bot: Kya haal hai, just soaking in the Delhi energy at Cirrus 9! 😊
+22:47:54,802 root INFO Relative Info: delhi_friend_male:general: financial_situation - minimalist
+delhi_friend_male:general:location - Cirrus 9:Mehrauli
+delhi_friend_male:general:location:influence - Delhi's energy
+
+22:47:54,802 root INFO Response: Hey again! 😄 What's been on your mind, just wanted to grab a drink and catch up?
+22:47:56,710 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+22:47:57,120 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+22:47:57,123 root INFO Logged to Supabase: data=[{'id': 1347, 'user_question': 'hey', 'bot_response': "Hey again! 😄 What's been on your mind, just wanted to grab a drink and catch up?", 'cit': '1738.39', 'drt': '71.65', 'rgt': '2625.97', 'personality': 'delhi_friend_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:17:56.71124', 'relative_data': "delhi_friend_male:general: financial_situation - minimalist\ndelhi_friend_male:general:location - Cirrus 9:Mehrauli\ndelhi_friend_male:general:location:influence - Delhi's energy\n"}] count=None
+22:49:26,473 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+22:49:29,325 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+22:49:29,327 root INFO Question: hey
+22:49:29,327 root INFO Last 3 Responses: Conversation 1:
+User: HEy
+Bot: Kaise ho? What's up? 😊
+
+Conversation 2:
+User: hey
+Bot: Kya haal hai, just soaking in the Delhi energy at Cirrus 9! 😊
+
+Conversation 3:
+User: hey
+Bot: Hey again! 😄 What's been on your mind, just wanted to grab a drink and catch up?
+22:49:29,328 root INFO Relative Info: delhi_friend_male:general: financial_situation - minimalist
+delhi_friend_male:general:location - Cirrus 9:Mehrauli
+delhi_friend_male:general:location:influence - Delhi's energy
+
+22:49:29,328 root INFO Response: Something on your mind or just enjoying the Mehrauli vibes like me?
+22:49:31,324 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+22:49:31,621 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+22:49:31,629 root INFO Logged to Supabase: data=[{'id': 1348, 'user_question': 'hey', 'bot_response': 'Something on your mind or just enjoying the Mehrauli vibes like me?', 'cit': '1798.96', 'drt': '75.39', 'rgt': '2776.58', 'personality': 'delhi_friend_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:19:31.327512', 'relative_data': "delhi_friend_male:general: financial_situation - minimalist\ndelhi_friend_male:general:location - Cirrus 9:Mehrauli\ndelhi_friend_male:general:location:influence - Delhi's energy\n"}] count=None
+22:50:55,196 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+22:50:58,576 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+22:50:58,578 root INFO Question: are you enjoying
+22:50:58,578 root INFO Last 3 Responses: Conversation 1:
+User: hey
+Bot: Kya haal hai, just soaking in the Delhi energy at Cirrus 9! 😊
+
+Conversation 2:
+User: hey
+Bot: Hey again! 😄 What's been on your mind, just wanted to grab a drink and catch up?
+
+Conversation 3:
+User: hey
+Bot: Something on your mind or just enjoying the Mehrauli vibes like me?
+22:50:58,578 root INFO Relative Info: delhi_friend_male:emotion:anxiety - frustrating
+delhi_friend_male:emotion:current - fantastic
+delhi_friend_male:emotion:current_feeling - smiling
+delhi_friend_male:emotion:feeling - a little shy
+delhi_friend_male:emotion:mood - fantastic
+delhi_friend_male:emotion:reason - unknown_source
+delhi_friend_male:emotion:state - excited
+
+22:50:58,578 root INFO Response: I'm having a fantastic time, thanks for asking. How about you, ki aap kya kar rahe hain? 🤗
+22:51:01,33 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+22:51:01,36 root INFO Saving key: delhi_friend_male:emotion:mood, value: fantastic to Redis...
+22:51:01,705 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+22:51:01,710 root INFO Logged to Supabase: data=[{'id': 1349, 'user_question': 'are you enjoying', 'bot_response': "I'm having a fantastic time, thanks for asking. How about you, ki aap kya kar rahe hain? 🤗", 'cit': '2018.7', 'drt': '813.85', 'rgt': '2566.03', 'personality': 'delhi_friend_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:21:01.133652', 'relative_data': 'delhi_friend_male:emotion:anxiety - frustrating\ndelhi_friend_male:emotion:current - fantastic\ndelhi_friend_male:emotion:current_feeling - smiling\ndelhi_friend_male:emotion:feeling - a little shy\ndelhi_friend_male:emotion:mood - fantastic\ndelhi_friend_male:emotion:reason - unknown_source\ndelhi_friend_male:emotion:state - excited\n'}] count=None
+22:51:06,973 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+22:51:09,412 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+22:51:09,414 root INFO Question: how much
+22:51:09,414 root INFO Last 3 Responses: Conversation 1:
+User: hey
+Bot: Hey again! 😄 What's been on your mind, just wanted to grab a drink and catch up?
+
+Conversation 2:
+User: hey
+Bot: Something on your mind or just enjoying the Mehrauli vibes like me?
+
+Conversation 3:
+User: are you enjoying
+Bot: I'm having a fantastic time, thanks for asking. How about you, ki aap kya kar rahe hain? 🤗
+22:51:09,414 root INFO Relative Info: delhi_friend_male:general: financial_situation - minimalist
+delhi_friend_male:general:location - Cirrus 9:Mehrauli
+delhi_friend_male:general:location:influence - Delhi's energy
+
+22:51:09,414 root INFO Response: How much of what, my friend? 🤔
+22:51:11,475 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+22:51:11,989 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+22:51:11,994 root INFO Logged to Supabase: data=[{'id': 1350, 'user_question': 'how much', 'bot_response': 'How much of what, my friend? 🤔', 'cit': '2248.27', 'drt': '74.41', 'rgt': '2365.06', 'personality': 'delhi_friend_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:21:11.477375', 'relative_data': "delhi_friend_male:general: financial_situation - minimalist\ndelhi_friend_male:general:location - Cirrus 9:Mehrauli\ndelhi_friend_male:general:location:influence - Delhi's energy\n"}] count=None
+23:00:24,603 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:00:27,105 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:00:27,107 root INFO Question: how much
+23:00:27,107 root INFO Last 3 Responses: Conversation 1:
+User: hey
+Bot: Something on your mind or just enjoying the Mehrauli vibes like me?
+
+Conversation 2:
+User: are you enjoying
+Bot: I'm having a fantastic time, thanks for asking. How about you, ki aap kya kar rahe hain? 🤗
+
+Conversation 3:
+User: how much
+Bot: How much of what, my friend? 🤔
+23:00:27,107 root INFO Relative Info: delhi_friend_male:general: financial_situation - minimalist
+delhi_friend_male:general:location - Cirrus 9:Mehrauli
+delhi_friend_male:general:location:influence - Delhi's energy
+
+23:00:27,107 root INFO Response: You're repetitive, my friend. Why are you asking the same question again without giving me any context? can you elaborate a bit?
+23:00:29,50 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:00:29,511 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:00:29,518 root INFO Logged to Supabase: data=[{'id': 1351, 'user_question': 'how much', 'bot_response': "You're repetitive, my friend. Why are you asking the same question again without giving me any context? can you elaborate a bit?", 'cit': '1722.42', 'drt': '71.73', 'rgt': '2429.13', 'personality': 'delhi_friend_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:30:29.0516', 'relative_data': "delhi_friend_male:general: financial_situation - minimalist\ndelhi_friend_male:general:location - Cirrus 9:Mehrauli\ndelhi_friend_male:general:location:influence - Delhi's energy\n"}] count=None
+23:00:48,69 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:00:50,763 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:00:50,765 root INFO Question: how much
+23:00:50,766 root INFO Last 3 Responses: Conversation 1:
+User: are you enjoying
+Bot: I'm having a fantastic time, thanks for asking. How about you, ki aap kya kar rahe hain? 🤗
+
+Conversation 2:
+User: how much
+Bot: How much of what, my friend? 🤔
+
+Conversation 3:
+User: how much
+Bot: You're repetitive, my friend. Why are you asking the same question again without giving me any context? can you elaborate a bit?
+23:00:50,766 root INFO Relative Info: delhi_friend_male:general: financial_situation - minimalist
+delhi_friend_male:general:location - Cirrus 9:Mehrauli
+delhi_friend_male:general:location:influence - Delhi's energy
+
+23:00:50,766 root INFO Response: You're being a bit slow, yaar. We've had this conversation already. Can you please give me some context or tell me what's going on in that head of yours? 😊
+23:00:52,678 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:00:52,948 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:00:52,954 root INFO Logged to Supabase: data=[{'id': 1352, 'user_question': 'how much', 'bot_response': "You're being a bit slow, yaar. We've had this conversation already. Can you please give me some context or tell me what's going on in that head of yours? 😊", 'cit': '1591.83', 'drt': '75.36', 'rgt': '2620.02', 'personality': 'delhi_friend_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:30:52.680614', 'relative_data': "delhi_friend_male:general: financial_situation - minimalist\ndelhi_friend_male:general:location - Cirrus 9:Mehrauli\ndelhi_friend_male:general:location:influence - Delhi's energy\n"}] count=None
+23:01:18,690 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:01:22,266 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:01:22,268 root INFO Question: Hey how are you
+23:01:22,268 root INFO Last 3 Responses: 
+23:01:22,268 root INFO Relative Info: delhi_friend_male:emotion:anxiety - frustrating
+delhi_friend_male:emotion:current - fantastic
+delhi_friend_male:emotion:current_feeling - smiling
+delhi_friend_male:emotion:feeling - a little shy
+delhi_friend_male:emotion:mood - fantastic
+delhi_friend_male:emotion:reason - unknown_source
+delhi_friend_male:emotion:state - excited
+
+23:01:22,268 root INFO Response: I'm fantastic, smiling and feeling on top of the world. How about you, what brings you joy today?
+23:01:24,137 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:01:24,139 root INFO Saving key: delhi_friend_male:emotion:mood, value: fantastic to Redis...
+23:01:24,421 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:01:24,428 root INFO Logged to Supabase: data=[{'id': 1353, 'user_question': 'Hey how are you', 'bot_response': "I'm fantastic, smiling and feeling on top of the world. How about you, what brings you joy today?", 'cit': '1689.09', 'drt': '144.99', 'rgt': '3430.48', 'personality': 'delhi_friend_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:31:24.157689', 'relative_data': 'delhi_friend_male:emotion:anxiety - frustrating\ndelhi_friend_male:emotion:current - fantastic\ndelhi_friend_male:emotion:current_feeling - smiling\ndelhi_friend_male:emotion:feeling - a little shy\ndelhi_friend_male:emotion:mood - fantastic\ndelhi_friend_male:emotion:reason - unknown_source\ndelhi_friend_male:emotion:state - excited\n'}] count=None
+23:01:36,822 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:01:39,4 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:01:39,6 root INFO Question: I am good
+23:01:39,6 root INFO Last 3 Responses: Conversation 1:
+User: Hey how are you
+Bot: I'm fantastic, smiling and feeling on top of the world. How about you, what brings you joy today?
+23:01:39,6 root INFO Relative Info: delhi_friend_male:emotion:anxiety - frustrating
+delhi_friend_male:emotion:current - fantastic
+delhi_friend_male:emotion:current_feeling - smiling
+delhi_friend_male:emotion:feeling - a little shy
+delhi_friend_male:emotion:mood - fantastic
+delhi_friend_male:emotion:reason - unknown_source
+delhi_friend_male:emotion:state - excited
+
+23:01:39,6 root INFO Response: That's great to hear, what's been the highlight of your day so far?
+23:01:40,977 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:01:41,451 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:01:41,457 root INFO Logged to Supabase: data=[{'id': 1354, 'user_question': 'I am good', 'bot_response': "That's great to hear, what's been the highlight of your day so far?", 'cit': '1625.15', 'drt': '143.62', 'rgt': '2038.1', 'personality': 'delhi_friend_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:31:40.979935', 'relative_data': 'delhi_friend_male:emotion:anxiety - frustrating\ndelhi_friend_male:emotion:current - fantastic\ndelhi_friend_male:emotion:current_feeling - smiling\ndelhi_friend_male:emotion:feeling - a little shy\ndelhi_friend_male:emotion:mood - fantastic\ndelhi_friend_male:emotion:reason - unknown_source\ndelhi_friend_male:emotion:state - excited\n'}] count=None
+23:01:56,911 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:01:59,471 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:01:59,471 root INFO Question: everthing good
+23:01:59,472 root INFO Last 3 Responses: Conversation 1:
+User: Hey how are you
+Bot: I'm fantastic, smiling and feeling on top of the world. How about you, what brings you joy today?
+
+Conversation 2:
+User: I am good
+Bot: That's great to hear, what's been the highlight of your day so far?
+23:01:59,472 root INFO Relative Info: delhi_friend_male:emotion:anxiety - frustrating
+delhi_friend_male:emotion:current - fantastic
+delhi_friend_male:emotion:current_feeling - smiling
+delhi_friend_male:emotion:feeling - a little shy
+delhi_friend_male:emotion:mood - fantastic
+delhi_friend_male:emotion:reason - unknown_source
+delhi_friend_male:emotion:state - excited
+
+23:01:59,472 root INFO Response: Kya baat hai, seems like life is treating you well. What's been the most interesting thing you've done recently?
+23:02:01,417 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:02:01,537 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:02:01,542 root INFO Logged to Supabase: data=[{'id': 1355, 'user_question': 'everthing good', 'bot_response': "Kya baat hai, seems like life is treating you well. What's been the most interesting thing you've done recently?", 'cit': '1851.24', 'drt': '144.0', 'rgt': '2413.8', 'personality': 'delhi_friend_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:32:01.420321', 'relative_data': 'delhi_friend_male:emotion:anxiety - frustrating\ndelhi_friend_male:emotion:current - fantastic\ndelhi_friend_male:emotion:current_feeling - smiling\ndelhi_friend_male:emotion:feeling - a little shy\ndelhi_friend_male:emotion:mood - fantastic\ndelhi_friend_male:emotion:reason - unknown_source\ndelhi_friend_male:emotion:state - excited\n'}] count=None
+23:02:27,330 watchfiles.main INFO 1 change detected
+23:02:27,914 watchfiles.main INFO 3 changes detected
+23:02:53,232 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:02:55,279 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:02:55,280 root INFO Question: nothing
+23:02:55,281 root INFO Last 3 Responses: Conversation 1:
+User: Hey how are you
+Bot: I'm fantastic, smiling and feeling on top of the world. How about you, what brings you joy today?
+
+Conversation 2:
+User: I am good
+Bot: That's great to hear, what's been the highlight of your day so far?
+
+Conversation 3:
+User: everthing good
+Bot: Kya baat hai, seems like life is treating you well. What's been the most interesting thing you've done recently?
+23:02:55,281 root INFO Relative Info: 
+23:02:55,281 root INFO Response: Kuch nahi hua kya? 😊
+23:02:57,123 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:02:57,392 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:02:57,396 root INFO Logged to Supabase: data=[{'id': 1356, 'user_question': 'nothing', 'bot_response': 'Kuch nahi hua kya? 😊', 'cit': '1836.6', 'drt': '0.0', 'rgt': '2045.32', 'personality': 'delhi_friend_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:32:57.125311', 'relative_data': ''}] count=None
+23:03:03,267 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:03:05,623 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:03:05,625 root INFO Question: nothing
+23:03:05,625 root INFO Last 3 Responses: Conversation 1:
+User: I am good
+Bot: That's great to hear, what's been the highlight of your day so far?
+
+Conversation 2:
+User: everthing good
+Bot: Kya baat hai, seems like life is treating you well. What's been the most interesting thing you've done recently?
+
+Conversation 3:
+User: nothing
+Bot: Kuch nahi hua kya? 😊
+23:03:05,625 root INFO Relative Info: delhi_friend_male:general: financial_situation - minimalist
+delhi_friend_male:general:location - Cirrus 9:Mehrauli
+delhi_friend_male:general:location:influence - Delhi's energy
+
+23:03:05,625 root INFO Response: Want to talk about it? Sometimes sharing what's on your mind helps. 🤔
+23:03:07,466 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:03:07,582 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:03:07,591 root INFO Logged to Supabase: data=[{'id': 1357, 'user_question': 'nothing', 'bot_response': "Want to talk about it? Sometimes sharing what's on your mind helps. 🤔", 'cit': '1720.36', 'drt': '75.49', 'rgt': '2279.91', 'personality': 'delhi_friend_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:33:07.468983', 'relative_data': "delhi_friend_male:general: financial_situation - minimalist\ndelhi_friend_male:general:location - Cirrus 9:Mehrauli\ndelhi_friend_male:general:location:influence - Delhi's energy\n"}] count=None
+23:03:11,459 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:03:13,917 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:03:13,919 root INFO Question: nothing
+23:03:13,919 root INFO Last 3 Responses: Conversation 1:
+User: everthing good
+Bot: Kya baat hai, seems like life is treating you well. What's been the most interesting thing you've done recently?
+
+Conversation 2:
+User: nothing
+Bot: Kuch nahi hua kya? 😊
+
+Conversation 3:
+User: nothing
+Bot: Want to talk about it? Sometimes sharing what's on your mind helps. 🤔
+23:03:13,919 root INFO Relative Info: delhi_friend_male:general: financial_situation - minimalist
+delhi_friend_male:general:location - Cirrus 9:Mehrauli
+delhi_friend_male:general:location:influence - Delhi's energy
+
+23:03:13,919 root INFO Response: Same answer again, kya baat hai? 😊 Want to distract yourself from the monotony? I can suggest some amazing street food places in Delhi.
+23:03:15,760 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:03:16,122 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:03:16,126 root INFO Logged to Supabase: data=[{'id': 1358, 'user_question': 'nothing', 'bot_response': 'Same answer again, kya baat hai? 😊 Want to distract yourself from the monotony? I can suggest some amazing street food places in Delhi.', 'cit': '1690.24', 'drt': '74.15', 'rgt': '2385.38', 'personality': 'delhi_friend_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:33:15.760738', 'relative_data': "delhi_friend_male:general: financial_situation - minimalist\ndelhi_friend_male:general:location - Cirrus 9:Mehrauli\ndelhi_friend_male:general:location:influence - Delhi's energy\n"}] count=None
+23:05:51,61 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:05:54,267 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:05:54,269 root INFO Question: nothing
+23:05:54,269 root INFO Last 3 Responses: Conversation 1:
+User: nothing
+Bot: Kuch nahi hua kya? 😊
+
+Conversation 2:
+User: nothing
+Bot: Want to talk about it? Sometimes sharing what's on your mind helps. 🤔
+
+Conversation 3:
+User: nothing
+Bot: Same answer again, kya baat hai? 😊 Want to distract yourself from the monotony? I can suggest some amazing street food places in Delhi.
+23:05:54,269 root INFO Relative Info: 
+23:05:54,269 root INFO Response: Kya baat hai, seem like you're in a zen mode today, Delhi's calling, want some recommendations to shake things up? 😊
+23:05:56,120 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:05:56,527 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:05:56,532 root INFO Logged to Supabase: data=[{'id': 1359, 'user_question': 'nothing', 'bot_response': "Kya baat hai, seem like you're in a zen mode today, Delhi's calling, want some recommendations to shake things up? 😊", 'cit': '1748.55', 'drt': '0.0', 'rgt': '3205.25', 'personality': 'delhi_friend_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:35:56.123007', 'relative_data': ''}] count=None
+23:06:12,870 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:06:16,287 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:06:16,289 root INFO Question: nothing
+23:06:16,290 root INFO Last 3 Responses: Conversation 1:
+User: nothing
+Bot: Want to talk about it? Sometimes sharing what's on your mind helps. 🤔
+
+Conversation 2:
+User: nothing
+Bot: Same answer again, kya baat hai? 😊 Want to distract yourself from the monotony? I can suggest some amazing street food places in Delhi.
+
+Conversation 3:
+User: nothing
+Bot: Kya baat hai, seem like you're in a zen mode today, Delhi's calling, want some recommendations to shake things up? 😊
+23:06:16,290 root INFO Relative Info: delhi_friend_male:general: financial_situation - minimalist
+delhi_friend_male:general:location - Cirrus 9:Mehrauli
+delhi_friend_male:general:location:influence - Delhi's energy
+
+23:06:16,290 root INFO Response: Tired of saying 'nothing', huh?. If everything's fine, let's get this conversation started then, what's been the highlight of your week? 😊
+23:06:18,409 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:06:18,774 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:06:18,780 root INFO Logged to Supabase: data=[{'id': 1360, 'user_question': 'nothing', 'bot_response': "Tired of saying 'nothing', huh?. If everything's fine, let's get this conversation started then, what's been the highlight of your week? 😊", 'cit': '1855.65', 'drt': '73.01', 'rgt': '3344.3', 'personality': 'delhi_friend_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:36:18.411964', 'relative_data': "delhi_friend_male:general: financial_situation - minimalist\ndelhi_friend_male:general:location - Cirrus 9:Mehrauli\ndelhi_friend_male:general:location:influence - Delhi's energy\n"}] count=None
+23:10:48,681 watchfiles.main INFO 1 change detected
+23:10:49,252 watchfiles.main INFO 3 changes detected
+23:13:49,334 watchfiles.main INFO 1 change detected
+23:13:49,913 watchfiles.main INFO 3 changes detected
+23:13:52,872 watchfiles.main INFO 1 change detected
+23:13:53,349 watchfiles.main INFO 1 change detected
+23:13:53,820 watchfiles.main INFO 3 changes detected
+23:13:55,367 watchfiles.main INFO 1 change detected
+23:13:56,135 watchfiles.main INFO 3 changes detected
+23:14:32,916 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:14:35,353 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:14:35,355 root INFO Question: Hii
+23:14:35,355 root INFO Last 3 Responses: 
+23:14:35,355 root INFO Relative Info: 
+23:14:35,355 root INFO Response: Namaste, kasa ahes? (Hello, how are you?)
+23:14:37,429 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:14:37,430 root INFO Redis save :['No info saved to Redis']
+23:14:37,733 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:14:37,741 root INFO Logged to Supabase: data=[{'id': 1376, 'user_question': 'Hii', 'bot_response': 'Namaste, kasa ahes? (Hello, how are you?)', 'cit': '1837.77', 'drt': '183.52', 'rgt': '2246.14', 'personality': 'pune_romantic_female', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:44:37.431505', 'relative_data': ''}] count=None
+23:14:44,764 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:14:46,949 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:14:46,951 root INFO Question: I am good
+23:14:46,951 root INFO Last 3 Responses: Conversation 1:
+User: Hii
+Bot: Namaste, kasa ahes? (Hello, how are you?)
+23:14:46,951 root INFO Relative Info: 
+23:14:46,951 root INFO Response: That's wonderful to hear, now tell me, what's on your mind?
+23:14:48,904 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:14:48,906 root INFO Redis save :['No info saved to Redis']
+23:14:48,997 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:14:48,999 root INFO Logged to Supabase: data=[{'id': 1377, 'user_question': 'I am good', 'bot_response': "That's wonderful to hear, now tell me, what's on your mind?", 'cit': '1729.49', 'drt': '18.47', 'rgt': '2165.43', 'personality': 'pune_romantic_female', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:44:48.906697', 'relative_data': ''}] count=None
+23:14:51,877 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:14:54,2 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:14:54,4 root INFO Question: I am good
+23:14:54,4 root INFO Last 3 Responses: Conversation 1:
+User: Hii
+Bot: Namaste, kasa ahes? (Hello, how are you?)
+
+Conversation 2:
+User: I am good
+Bot: That's wonderful to hear, now tell me, what's on your mind?
+23:14:54,4 root INFO Relative Info: 
+23:14:54,4 root INFO Response: That's a great start, but tell me, what's making you feel good today?
+23:14:55,845 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:14:55,847 root INFO Redis save :['No info saved to Redis']
+23:14:56,257 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:14:56,259 root INFO Logged to Supabase: data=[{'id': 1378, 'user_question': 'I am good', 'bot_response': "That's a great start, but tell me, what's making you feel good today?", 'cit': '1690.29', 'drt': '17.85', 'rgt': '2107.07', 'personality': 'pune_romantic_female', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:44:55.84844', 'relative_data': ''}] count=None
+23:15:02,194 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:15:04,642 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:15:04,644 root INFO Question: I am good
+23:15:04,644 root INFO Last 3 Responses: Conversation 1:
+User: Hii
+Bot: Namaste, kasa ahes? (Hello, how are you?)
+
+Conversation 2:
+User: I am good
+Bot: That's wonderful to hear, now tell me, what's on your mind?
+
+Conversation 3:
+User: I am good
+Bot: That's a great start, but tell me, what's making you feel good today?
+23:15:04,644 root INFO Relative Info: 
+23:15:04,644 root INFO Response: Something's certainly going right in your life, but I sense there's more to it, don't you think?
+23:15:07,447 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:15:07,449 root INFO Redis save :['No info saved to Redis']
+23:15:07,560 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:15:07,568 root INFO Logged to Supabase: data=[{'id': 1380, 'user_question': 'I am good', 'bot_response': "Something's certainly going right in your life, but I sense there's more to it, don't you think?", 'cit': '1729.3', 'drt': '17.62', 'rgt': '2430.49', 'personality': 'pune_romantic_female', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:45:07.450113', 'relative_data': ''}] count=None
+23:15:13,765 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:15:17,212 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:15:17,214 root INFO Question: I am good
+23:15:17,214 root INFO Last 3 Responses: Conversation 1:
+User: I am good
+Bot: That's wonderful to hear, now tell me, what's on your mind?
+
+Conversation 2:
+User: I am good
+Bot: That's a great start, but tell me, what's making you feel good today?
+
+Conversation 3:
+User: I am good
+Bot: Something's certainly going right in your life, but I sense there's more to it, don't you think?
+23:15:17,215 root INFO Relative Info: 
+23:15:17,215 root INFO Response: You know, I was just thinking about this beautiful quote by Osho, "The greatest joy is to become aware of the beauty that's everywhere, even in the smallest things." What's bringing a smile to your face today?
+23:15:19,57 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:15:19,58 root INFO Redis save :['No info saved to Redis']
+23:15:19,300 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:15:19,305 root INFO Logged to Supabase: data=[{'id': 1381, 'user_question': 'I am good', 'bot_response': 'You know, I was just thinking about this beautiful quote by Osho, "The greatest joy is to become aware of the beauty that\'s everywhere, even in the smallest things." What\'s bringing a smile to your face today?', 'cit': '1774.41', 'drt': '18.2', 'rgt': '3429.64', 'personality': 'pune_romantic_female', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:45:19.059247', 'relative_data': ''}] count=None
+23:15:34,176 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:15:36,924 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:15:36,926 root INFO Question: I am good
+23:15:36,926 root INFO Last 3 Responses: Conversation 1:
+User: I am good
+Bot: That's a great start, but tell me, what's making you feel good today?
+
+Conversation 2:
+User: I am good
+Bot: Something's certainly going right in your life, but I sense there's more to it, don't you think?
+
+Conversation 3:
+User: I am good
+Bot: You know, I was just thinking about this beautiful quote by Osho, The greatest joy is to become aware of the beauty that's everywhere, even in the smallest things. What's bringing a smile to your face today?
+23:15:36,927 root INFO Relative Info: 
+23:15:36,927 root INFO Response: You seem to be on a roll with that positive energy, but I'm curious, have you explored any new places in Pune lately that's keeping you in such high spirits?
+23:15:38,804 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:15:38,806 root INFO Redis save :['No info saved to Redis']
+23:15:38,915 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:15:38,920 root INFO Logged to Supabase: data=[{'id': 1382, 'user_question': 'I am good', 'bot_response': "You seem to be on a roll with that positive energy, but I'm curious, have you explored any new places in Pune lately that's keeping you in such high spirits?", 'cit': '1585.68', 'drt': '17.95', 'rgt': '2730.25', 'personality': 'pune_romantic_female', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:45:38.807677', 'relative_data': ''}] count=None
+23:15:52,850 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:15:54,847 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:15:54,848 root INFO Question: I am not good
+23:15:54,848 root INFO Last 3 Responses: Conversation 1:
+User: I am good
+Bot: Something's certainly going right in your life, but I sense there's more to it, don't you think?
+
+Conversation 2:
+User: I am good
+Bot: You know, I was just thinking about this beautiful quote by Osho, The greatest joy is to become aware of the beauty that's everywhere, even in the smallest things. What's bringing a smile to your face today?
+
+Conversation 3:
+User: I am good
+Bot: You seem to be on a roll with that positive energy, but I'm curious, have you explored any new places in Pune lately that's keeping you in such high spirits?
+23:15:54,848 root INFO Relative Info: 
+23:15:54,848 root INFO Response: What seems to be bothering you, and how can I help ease that?
+23:15:56,568 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:15:56,569 root INFO Redis save :['No info saved to Redis']
+23:15:56,851 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:15:56,858 root INFO Logged to Supabase: data=[{'id': 1383, 'user_question': 'I am not good', 'bot_response': 'What seems to be bothering you, and how can I help ease that?', 'cit': '1709.06', 'drt': '35.21', 'rgt': '1960.99', 'personality': 'pune_romantic_female', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:45:56.569703', 'relative_data': ''}] count=None
+23:16:00,995 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:16:03,151 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:16:03,153 root INFO Question: I am not good
+23:16:03,153 root INFO Last 3 Responses: Conversation 1:
+User: I am good
+Bot: You know, I was just thinking about this beautiful quote by Osho, The greatest joy is to become aware of the beauty that's everywhere, even in the smallest things. What's bringing a smile to your face today?
+
+Conversation 2:
+User: I am good
+Bot: You seem to be on a roll with that positive energy, but I'm curious, have you explored any new places in Pune lately that's keeping you in such high spirits?
+
+Conversation 3:
+User: I am not good
+Bot: What seems to be bothering you, and how can I help ease that?
+23:16:03,153 root INFO Relative Info: 
+23:16:03,153 root INFO Response: It's okay to not be okay, but tell me, what's on your mind and in your heart that's making you feel this way?
+23:16:04,993 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:16:04,996 root INFO Redis save :['No info saved to Redis']
+23:16:05,115 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:16:05,116 root INFO Logged to Supabase: data=[{'id': 1385, 'user_question': 'I am not good', 'bot_response': "It's okay to not be okay, but tell me, what's on your mind and in your heart that's making you feel this way?", 'cit': '1729.77', 'drt': '18.91', 'rgt': '2136.42', 'personality': 'pune_romantic_female', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:46:04.996564', 'relative_data': ''}] count=None
+23:16:11,151 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:16:13,139 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:16:13,140 root INFO Question: I am not good
+23:16:13,141 root INFO Last 3 Responses: Conversation 1:
+User: I am good
+Bot: You seem to be on a roll with that positive energy, but I'm curious, have you explored any new places in Pune lately that's keeping you in such high spirits?
+
+Conversation 2:
+User: I am not good
+Bot: What seems to be bothering you, and how can I help ease that?
+
+Conversation 3:
+User: I am not good
+Bot: It's okay to not be okay, but tell me, what's on your mind and in your heart that's making you feel this way?
+23:16:13,141 root INFO Relative Info: 
+23:16:13,141 root INFO Response: Something's been weighing on your mind, isn't it? Want to talk about what's been going on?
+23:16:15,102 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:16:15,104 root INFO Redis save :['No info saved to Redis']
+23:16:15,207 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:16:15,212 root INFO Logged to Supabase: data=[{'id': 1386, 'user_question': 'I am not good', 'bot_response': "Something's been weighing on your mind, isn't it? Want to talk about what's been going on?", 'cit': '1715.16', 'drt': '18.53', 'rgt': '1968.27', 'personality': 'pune_romantic_female', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:46:15.105503', 'relative_data': ''}] count=None
+23:16:23,911 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:16:26,59 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:16:26,60 root INFO Question: I am not good
+23:16:26,61 root INFO Last 3 Responses: Conversation 1:
+User: I am not good
+Bot: What seems to be bothering you, and how can I help ease that?
+
+Conversation 2:
+User: I am not good
+Bot: It's okay to not be okay, but tell me, what's on your mind and in your heart that's making you feel this way?
+
+Conversation 3:
+User: I am not good
+Bot: Something's been weighing on your mind, isn't it? Want to talk about what's been going on?
+23:16:26,61 root INFO Relative Info: 
+23:16:26,61 root INFO Response: Let's try to shift the focus - what's one thing you're grateful for today?
+23:16:28,6 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:16:28,8 root INFO Redis save :['No info saved to Redis']
+23:16:28,108 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:16:28,113 root INFO Logged to Supabase: data=[{'id': 1387, 'user_question': 'I am not good', 'bot_response': "Let's try to shift the focus - what's one thing you're grateful for today?", 'cit': '1792.98', 'drt': '17.09', 'rgt': '2130.77', 'personality': 'pune_romantic_female', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:46:28.008863', 'relative_data': ''}] count=None
+23:16:36,198 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:16:38,868 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:16:38,870 root INFO Question: I am not good
+23:16:38,870 root INFO Last 3 Responses: Conversation 1:
+User: I am not good
+Bot: It's okay to not be okay, but tell me, what's on your mind and in your heart that's making you feel this way?
+
+Conversation 2:
+User: I am not good
+Bot: Something's been weighing on your mind, isn't it? Want to talk about what's been going on?
+
+Conversation 3:
+User: I am not good
+Bot: Let's try to shift the focus - what's one thing you're grateful for today?
+23:16:38,870 root INFO Relative Info: 
+23:16:38,870 root INFO Response: Why the same concern again, is something specific bothering you, or is it just a lingering feeling?
+23:16:40,601 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:16:40,603 root INFO Redis save :['No info saved to Redis']
+23:16:40,707 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:16:40,711 root INFO Logged to Supabase: data=[{'id': 1389, 'user_question': 'I am not good', 'bot_response': 'Why the same concern again, is something specific bothering you, or is it just a lingering feeling?', 'cit': '1708.13', 'drt': '18.5', 'rgt': '2651.64', 'personality': 'pune_romantic_female', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:46:40.604373', 'relative_data': ''}] count=None
+23:16:54,322 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:16:56,678 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:16:56,680 root INFO Question: I am not good
+23:16:56,680 root INFO Last 3 Responses: Conversation 1:
+User: I am not good
+Bot: Something's been weighing on your mind, isn't it? Want to talk about what's been going on?
+
+Conversation 2:
+User: I am not good
+Bot: Let's try to shift the focus - what's one thing you're grateful for today?
+
+Conversation 3:
+User: I am not good
+Bot: Why the same concern again, is something specific bothering you, or is it just a lingering feeling?
+23:16:56,680 root INFO Relative Info: 
+23:16:56,680 root INFO Response: It seems like we've been here before, what's new that's making you feel this way today?
+23:16:58,521 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+23:16:58,523 root INFO Redis save :['No info saved to Redis']
+23:16:58,631 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:16:58,633 root INFO Logged to Supabase: data=[{'id': 1390, 'user_question': 'I am not good', 'bot_response': "It seems like we've been here before, what's new that's making you feel this way today?", 'cit': '1829.6', 'drt': '18.21', 'rgt': '2338.97', 'personality': 'pune_romantic_female', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-11-28T17:46:58.524105', 'relative_data': ''}] count=None
+23:20:32,605 watchfiles.main INFO 1 change detected
+23:20:33,204 watchfiles.main INFO 3 changes detected
+15:23:34,491 uvicorn.error INFO Will watch for changes in these directories: ['/Users/tanmaysingewar/Projects/Area/CV_AI.ai/MM-Mark1/cv-chat/python-server']
+15:23:34,492 uvicorn.error INFO Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+15:23:34,492 uvicorn.error INFO Started reloader process [70657] using WatchFiles
+15:23:35,239 watchfiles.main INFO 15 changes detected
+15:23:35,766 watchfiles.main INFO 28 changes detected
+15:23:36,242 watchfiles.main INFO 101 changes detected
+15:23:36,377 uvicorn.error INFO Started server process [70666]
+15:23:36,378 uvicorn.error INFO Waiting for application startup.
+15:23:36,379 uvicorn.error INFO Application startup complete.
+15:23:36,606 watchfiles.main INFO 1 change detected
+15:23:42,548 uvicorn.error INFO Shutting down
+15:23:42,651 uvicorn.error INFO Finished server process [70666]
+15:23:42,656 uvicorn.error INFO Stopping reloader process [70657]
+15:23:46,0 uvicorn.error INFO Will watch for changes in these directories: ['/Users/tanmaysingewar/Projects/Area/CV_AI.ai/MM-Mark1/cv-chat/python-server']
+15:23:46,1 uvicorn.error INFO Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+15:23:46,1 uvicorn.error INFO Started reloader process [70704] using WatchFiles
+15:23:46,531 uvicorn.error INFO Started server process [70707]
+15:23:46,532 uvicorn.error INFO Waiting for application startup.
+15:23:46,533 uvicorn.error INFO Application startup complete.
+15:24:14,166 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+15:24:16,484 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+15:24:16,485 root INFO Question: What do your father do?
+15:24:16,485 root INFO Last 3 Responses: 
+15:24:16,485 root INFO Relative Info: delhi:relationships:family - No father
+delhi:relationships:personal_life - No personal life
+
+15:24:16,485 root INFO Response: I don't have a father.
+15:24:16,615 watchfiles.main INFO 7 changes detected
+15:24:20,413 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+15:24:20,415 root INFO Saving key: delhi:relationships:father, value: None to Redis...
+15:24:20,448 root INFO Redis save :['relationships:father Value:None']
+15:24:21,543 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+15:24:21,549 root INFO Logged to Supabase: data=[{'id': 1907, 'user_question': 'What do your father do?', 'bot_response': "I don't have a father.", 'cit': '2845.56', 'drt': '429.47', 'rgt': '1840.7', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T09:54:20.449642', 'relative_data': 'delhi:relationships:family - No father\ndelhi:relationships:personal_life - No personal life\n'}] count=None
+15:24:55,878 watchfiles.main INFO 1 change detected
+15:24:55,879 uvicorn.error WARNING WatchFiles detected changes in 'model.py'. Reloading...
+15:24:55,934 uvicorn.error INFO Shutting down
+15:24:56,36 uvicorn.error INFO Waiting for application shutdown.
+15:24:56,37 uvicorn.error INFO Application shutdown complete.
+15:24:56,37 uvicorn.error INFO Finished server process [70707]
+15:24:56,409 watchfiles.main INFO 1 change detected
+15:24:56,748 uvicorn.error INFO Started server process [70893]
+15:24:56,749 uvicorn.error INFO Waiting for application startup.
+15:24:56,749 uvicorn.error INFO Application startup complete.
+15:24:56,829 watchfiles.main INFO 3 changes detected
+15:25:08,9 watchfiles.main INFO 1 change detected
+15:25:08,10 uvicorn.error WARNING WatchFiles detected changes in 'model.py'. Reloading...
+15:25:08,70 uvicorn.error INFO Shutting down
+15:25:08,172 uvicorn.error INFO Waiting for application shutdown.
+15:25:08,173 uvicorn.error INFO Application shutdown complete.
+15:25:08,174 uvicorn.error INFO Finished server process [70893]
+15:25:08,540 watchfiles.main INFO 1 change detected
+15:25:08,732 uvicorn.error INFO Started server process [70926]
+15:25:08,733 uvicorn.error INFO Waiting for application startup.
+15:25:08,733 uvicorn.error INFO Application startup complete.
+15:25:08,900 watchfiles.main INFO 3 changes detected
+15:25:11,369 watchfiles.main INFO 1 change detected
+15:25:12,442 watchfiles.main INFO 3 changes detected
+15:25:29,771 watchfiles.main INFO 1 change detected
+15:25:29,772 uvicorn.error WARNING WatchFiles detected changes in 'model.py'. Reloading...
+15:25:29,864 uvicorn.error INFO Shutting down
+15:25:29,967 uvicorn.error INFO Waiting for application shutdown.
+15:25:29,969 uvicorn.error INFO Application shutdown complete.
+15:25:29,970 uvicorn.error INFO Finished server process [70926]
+15:25:30,337 watchfiles.main INFO 1 change detected
+15:25:30,574 uvicorn.error INFO Started server process [70986]
+15:25:30,576 uvicorn.error INFO Waiting for application startup.
+15:25:30,576 uvicorn.error INFO Application startup complete.
+15:25:30,701 watchfiles.main INFO 3 changes detected
+15:25:37,459 watchfiles.main INFO 1 change detected
+15:25:37,459 uvicorn.error WARNING WatchFiles detected changes in 'model.py'. Reloading...
+15:25:37,554 uvicorn.error INFO Shutting down
+15:25:37,656 uvicorn.error INFO Waiting for application shutdown.
+15:25:37,657 uvicorn.error INFO Application shutdown complete.
+15:25:37,658 uvicorn.error INFO Finished server process [70986]
+15:25:38,25 watchfiles.main INFO 1 change detected
+15:25:38,245 uvicorn.error INFO Started server process [71011]
+15:25:38,247 uvicorn.error INFO Waiting for application startup.
+15:25:38,247 uvicorn.error INFO Application startup complete.
+15:25:38,388 watchfiles.main INFO 3 changes detected
+15:25:45,210 watchfiles.main INFO 1 change detected
+15:25:45,210 uvicorn.error WARNING WatchFiles detected changes in 'main.py'. Reloading...
+15:25:45,220 uvicorn.error INFO Shutting down
+15:25:45,322 uvicorn.error INFO Waiting for application shutdown.
+15:25:45,322 uvicorn.error INFO Application shutdown complete.
+15:25:45,323 uvicorn.error INFO Finished server process [71011]
+15:25:45,738 watchfiles.main INFO 4 changes detected
+15:25:45,865 uvicorn.error INFO Started server process [71029]
+15:25:45,867 uvicorn.error INFO Waiting for application startup.
+15:25:45,867 uvicorn.error INFO Application startup complete.
+15:25:49,649 watchfiles.main INFO 1 change detected
+15:25:49,649 uvicorn.error WARNING WatchFiles detected changes in 'main.py'. Reloading...
+15:25:49,708 uvicorn.error INFO Shutting down
+15:25:49,810 uvicorn.error INFO Waiting for application shutdown.
+15:25:49,811 uvicorn.error INFO Application shutdown complete.
+15:25:49,812 uvicorn.error INFO Finished server process [71029]
+15:25:50,234 watchfiles.main INFO 4 changes detected
+15:25:50,378 uvicorn.error INFO Started server process [71058]
+15:25:50,379 uvicorn.error INFO Waiting for application startup.
+15:25:50,380 uvicorn.error INFO Application startup complete.
+15:26:12,996 watchfiles.main INFO 1 change detected
+15:26:12,997 uvicorn.error WARNING WatchFiles detected changes in 'main.py'. Reloading...
+15:26:13,19 uvicorn.error INFO Shutting down
+15:26:13,120 uvicorn.error INFO Waiting for application shutdown.
+15:26:13,121 uvicorn.error INFO Application shutdown complete.
+15:26:13,122 uvicorn.error INFO Finished server process [71058]
+15:26:13,493 watchfiles.main INFO 1 change detected
+15:26:13,755 uvicorn.error INFO Started server process [71099]
+15:26:13,757 uvicorn.error INFO Waiting for application startup.
+15:26:13,757 uvicorn.error INFO Application startup complete.
+15:26:13,851 watchfiles.main INFO 3 changes detected
+15:26:21,482 watchfiles.main INFO 1 change detected
+15:26:21,483 uvicorn.error WARNING WatchFiles detected changes in 'main.py'. Reloading...
+15:26:21,540 uvicorn.error INFO Shutting down
+15:26:21,642 uvicorn.error INFO Waiting for application shutdown.
+15:26:21,643 uvicorn.error INFO Application shutdown complete.
+15:26:21,643 uvicorn.error INFO Finished server process [71099]
+15:26:22,66 watchfiles.main INFO 4 changes detected
+15:26:22,210 uvicorn.error INFO Started server process [71124]
+15:26:22,211 uvicorn.error INFO Waiting for application startup.
+15:26:22,211 uvicorn.error INFO Application startup complete.
+15:26:33,333 watchfiles.main INFO 1 change detected
+15:26:33,334 uvicorn.error WARNING WatchFiles detected changes in 'main.py'. Reloading...
+15:26:33,347 uvicorn.error INFO Shutting down
+15:26:33,450 uvicorn.error INFO Waiting for application shutdown.
+15:26:33,451 uvicorn.error INFO Application shutdown complete.
+15:26:33,452 uvicorn.error INFO Finished server process [71124]
+15:26:33,876 watchfiles.main INFO 4 changes detected
+15:26:34,61 uvicorn.error INFO Started server process [71147]
+15:26:34,62 uvicorn.error INFO Waiting for application startup.
+15:26:34,63 uvicorn.error INFO Application startup complete.
+15:27:51,264 watchfiles.main INFO 1 change detected
+15:27:51,265 uvicorn.error WARNING WatchFiles detected changes in 'main.py'. Reloading...
+15:27:51,305 uvicorn.error INFO Shutting down
+15:27:51,406 uvicorn.error INFO Waiting for application shutdown.
+15:27:51,407 uvicorn.error INFO Application shutdown complete.
+15:27:51,408 uvicorn.error INFO Finished server process [71147]
+15:27:51,832 watchfiles.main INFO 4 changes detected
+15:27:51,990 uvicorn.error INFO Started server process [71306]
+15:27:51,992 uvicorn.error INFO Waiting for application startup.
+15:27:51,992 uvicorn.error INFO Application startup complete.
+15:27:59,615 watchfiles.main INFO 1 change detected
+15:27:59,616 uvicorn.error WARNING WatchFiles detected changes in 'model.py'. Reloading...
+15:27:59,677 uvicorn.error INFO Shutting down
+15:27:59,779 uvicorn.error INFO Waiting for application shutdown.
+15:27:59,782 uvicorn.error INFO Application shutdown complete.
+15:27:59,783 uvicorn.error INFO Finished server process [71306]
+15:28:00,157 watchfiles.main INFO 1 change detected
+15:28:00,355 uvicorn.error INFO Started server process [71328]
+15:28:00,356 uvicorn.error INFO Waiting for application startup.
+15:28:00,356 uvicorn.error INFO Application startup complete.
+15:28:00,522 watchfiles.main INFO 3 changes detected
+15:28:12,511 watchfiles.main INFO 1 change detected
+15:28:13,582 watchfiles.main INFO 3 changes detected
+15:28:46,59 watchfiles.main INFO 1 change detected
+15:28:46,60 uvicorn.error WARNING WatchFiles detected changes in 'model.py'. Reloading...
+15:28:46,160 uvicorn.error INFO Shutting down
+15:28:46,263 uvicorn.error INFO Waiting for application shutdown.
+15:28:46,263 uvicorn.error INFO Application shutdown complete.
+15:28:46,264 uvicorn.error INFO Finished server process [71328]
+15:28:46,632 watchfiles.main INFO 1 change detected
+15:28:46,952 uvicorn.error INFO Started server process [71425]
+15:28:46,953 uvicorn.error INFO Waiting for application startup.
+15:28:46,954 uvicorn.error INFO Application startup complete.
+15:28:46,997 watchfiles.main INFO 3 changes detected
+15:28:59,541 watchfiles.main INFO 1 change detected
+15:28:59,541 uvicorn.error WARNING WatchFiles detected changes in 'main.py'. Reloading...
+15:28:59,592 uvicorn.error INFO Shutting down
+15:28:59,694 uvicorn.error INFO Waiting for application shutdown.
+15:28:59,696 uvicorn.error INFO Application shutdown complete.
+15:28:59,697 uvicorn.error INFO Finished server process [71425]
+15:29:00,68 watchfiles.main INFO 1 change detected
+15:29:00,356 uvicorn.error INFO Started server process [71462]
+15:29:00,357 uvicorn.error INFO Waiting for application startup.
+15:29:00,357 uvicorn.error INFO Application startup complete.
+15:29:00,432 watchfiles.main INFO 3 changes detected
+15:29:01,60 watchfiles.main INFO 1 change detected
+15:29:01,60 uvicorn.error WARNING WatchFiles detected changes in 'main.py'. Reloading...
+15:29:01,64 uvicorn.error INFO Shutting down
+15:29:01,165 uvicorn.error INFO Waiting for application shutdown.
+15:29:01,166 uvicorn.error INFO Application shutdown complete.
+15:29:01,166 uvicorn.error INFO Finished server process [71462]
+15:29:01,587 watchfiles.main INFO 4 changes detected
+15:29:01,700 uvicorn.error INFO Started server process [71467]
+15:29:01,701 uvicorn.error INFO Waiting for application startup.
+15:29:01,701 uvicorn.error INFO Application startup complete.
+15:29:17,586 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+15:29:17,623 root INFO Error: name 'cit' is not defined
+15:29:31,798 watchfiles.main INFO 1 change detected
+15:29:31,798 uvicorn.error WARNING WatchFiles detected changes in 'main.py'. Reloading...
+15:29:31,870 uvicorn.error INFO Shutting down
+15:29:31,972 uvicorn.error INFO Waiting for application shutdown.
+15:29:31,974 uvicorn.error INFO Application shutdown complete.
+15:29:31,975 uvicorn.error INFO Finished server process [71467]
+15:29:32,339 watchfiles.main INFO 1 change detected
+15:29:32,653 uvicorn.error INFO Started server process [71534]
+15:29:32,654 uvicorn.error INFO Waiting for application startup.
+15:29:32,655 uvicorn.error INFO Application startup complete.
+15:29:32,695 watchfiles.main INFO 3 changes detected
+15:29:34,70 watchfiles.main INFO 1 change detected
+15:29:34,71 uvicorn.error WARNING WatchFiles detected changes in 'main.py'. Reloading...
+15:29:34,171 uvicorn.error INFO Shutting down
+15:29:34,272 uvicorn.error INFO Waiting for application shutdown.
+15:29:34,273 uvicorn.error INFO Application shutdown complete.
+15:29:34,274 uvicorn.error INFO Finished server process [71534]
+15:29:34,699 watchfiles.main INFO 4 changes detected
+15:29:34,867 uvicorn.error INFO Started server process [71543]
+15:29:34,868 uvicorn.error INFO Waiting for application startup.
+15:29:34,868 uvicorn.error INFO Application startup complete.
+15:29:38,607 watchfiles.main INFO 1 change detected
+15:29:38,608 uvicorn.error WARNING WatchFiles detected changes in 'main.py'. Reloading...
+15:29:38,708 uvicorn.error INFO Shutting down
+15:29:38,810 uvicorn.error INFO Waiting for application shutdown.
+15:29:38,811 uvicorn.error INFO Application shutdown complete.
+15:29:38,811 uvicorn.error INFO Finished server process [71543]
+15:29:39,232 watchfiles.main INFO 4 changes detected
+15:29:39,369 uvicorn.error INFO Started server process [71563]
+15:29:39,370 uvicorn.error INFO Waiting for application startup.
+15:29:39,370 uvicorn.error INFO Application startup complete.
+15:29:46,255 watchfiles.main INFO 1 change detected
+15:29:46,256 uvicorn.error WARNING WatchFiles detected changes in 'main.py'. Reloading...
+15:29:46,348 uvicorn.error INFO Shutting down
+15:29:46,450 uvicorn.error INFO Waiting for application shutdown.
+15:29:46,450 uvicorn.error INFO Application shutdown complete.
+15:29:46,451 uvicorn.error INFO Finished server process [71563]
+15:29:46,875 watchfiles.main INFO 4 changes detected
+15:29:46,997 uvicorn.error INFO Started server process [71577]
+15:29:46,999 uvicorn.error INFO Waiting for application startup.
+15:29:46,999 uvicorn.error INFO Application startup complete.
+15:30:01,127 watchfiles.main INFO 1 change detected
+15:30:01,127 uvicorn.error WARNING WatchFiles detected changes in 'main.py'. Reloading...
+15:30:01,155 uvicorn.error INFO Shutting down
+15:30:01,256 uvicorn.error INFO Waiting for application shutdown.
+15:30:01,257 uvicorn.error INFO Application shutdown complete.
+15:30:01,257 uvicorn.error INFO Finished server process [71577]
+15:30:01,682 watchfiles.main INFO 4 changes detected
+15:30:01,812 uvicorn.error INFO Started server process [71612]
+15:30:01,814 uvicorn.error INFO Waiting for application startup.
+15:30:01,814 uvicorn.error INFO Application startup complete.
+15:30:09,106 watchfiles.main INFO 1 change detected
+15:30:09,107 uvicorn.error WARNING WatchFiles detected changes in 'main.py'. Reloading...
+15:30:09,190 uvicorn.error INFO Shutting down
+15:30:09,292 uvicorn.error INFO Waiting for application shutdown.
+15:30:09,293 uvicorn.error INFO Application shutdown complete.
+15:30:09,294 uvicorn.error INFO Finished server process [71612]
+15:30:09,719 watchfiles.main INFO 4 changes detected
+15:30:09,869 uvicorn.error INFO Started server process [71638]
+15:30:09,870 uvicorn.error INFO Waiting for application startup.
+15:30:09,871 uvicorn.error INFO Application startup complete.
+15:30:13,890 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+15:30:13,935 root INFO Error: name 'cit' is not defined
+15:31:00,59 watchfiles.main INFO 1 change detected
+15:31:00,60 uvicorn.error WARNING WatchFiles detected changes in 'model.py'. Reloading...
+15:31:00,131 uvicorn.error INFO Shutting down
+15:31:00,233 uvicorn.error INFO Waiting for application shutdown.
+15:31:00,234 uvicorn.error INFO Application shutdown complete.
+15:31:00,235 uvicorn.error INFO Finished server process [71638]
+15:31:00,607 watchfiles.main INFO 1 change detected
+15:31:00,846 uvicorn.error INFO Started server process [71736]
+15:31:00,847 uvicorn.error INFO Waiting for application startup.
+15:31:00,848 uvicorn.error INFO Application startup complete.
+15:31:00,971 watchfiles.main INFO 3 changes detected
+15:31:07,905 httpx INFO HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+15:31:07,950 root INFO Question: What do your father do?
+15:31:07,950 root INFO Last 3 Responses: 
+15:31:07,950 root INFO Response: I don't have a father or personal experiences. I'm a conversational AI, so I don't have a personal life or family. What's on your mind?
+15:31:08,435 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+15:31:08,441 root INFO Logged to Supabase: data=[{'id': 1908, 'user_question': 'What do your father do?', 'bot_response': "I don't have a father or personal experiences. I'm a conversational AI, so I don't have a personal life or family. What's on your mind?", 'cit': '0', 'drt': '0', 'rgt': '2970.72', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T10:01:07.95648', 'relative_data': ''}] count=None
+15:31:18,714 watchfiles.main INFO 1 change detected
+15:31:19,832 watchfiles.main INFO 3 changes detected
+15:43:54,550 watchfiles.main INFO 1 change detected
+15:43:55,624 watchfiles.main INFO 3 changes detected
+16:04:12,950 watchfiles.main INFO 1 change detected
+16:04:14,17 watchfiles.main INFO 3 changes detected
+16:04:23,591 watchfiles.main INFO 1 change detected
+16:04:23,592 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:04:23,608 uvicorn.error INFO Shutting down
+16:04:23,713 uvicorn.error INFO Waiting for application shutdown.
+16:04:23,715 uvicorn.error INFO Application shutdown complete.
+16:04:23,715 uvicorn.error INFO Finished server process [71736]
+16:04:24,91 watchfiles.main INFO 1 change detected
+16:04:24,784 watchfiles.main INFO 3 changes detected
+16:04:24,868 uvicorn.error INFO Started server process [75175]
+16:04:24,869 uvicorn.error INFO Waiting for application startup.
+16:04:24,870 uvicorn.error INFO Application startup complete.
+16:06:01,762 watchfiles.main INFO 1 change detected
+16:06:04,437 watchfiles.main INFO 1 change detected
+16:06:06,245 watchfiles.main INFO 1 change detected
+16:06:36,712 watchfiles.main INFO 1 change detected
+16:06:36,712 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:06:36,797 uvicorn.error INFO Shutting down
+16:06:36,899 uvicorn.error INFO Waiting for application shutdown.
+16:06:36,901 uvicorn.error INFO Application shutdown complete.
+16:06:36,902 uvicorn.error INFO Finished server process [75175]
+16:06:37,277 watchfiles.main INFO 1 change detected
+16:06:37,605 uvicorn.error INFO Started server process [75401]
+16:06:37,606 uvicorn.error INFO Waiting for application startup.
+16:06:37,606 uvicorn.error INFO Application startup complete.
+16:06:37,638 watchfiles.main INFO 3 changes detected
+16:07:06,763 watchfiles.main INFO 1 change detected
+16:07:14,41 watchfiles.main INFO 1 change detected
+16:07:15,109 watchfiles.main INFO 3 changes detected
+16:07:24,773 watchfiles.main INFO 1 change detected
+16:07:24,774 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:07:24,788 uvicorn.error INFO Shutting down
+16:07:24,891 uvicorn.error INFO Waiting for application shutdown.
+16:07:24,894 uvicorn.error INFO Application shutdown complete.
+16:07:24,895 uvicorn.error INFO Finished server process [75401]
+16:07:25,267 watchfiles.main INFO 1 change detected
+16:07:28,226 watchfiles.main INFO 1 change detected
+16:07:28,226 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:07:28,752 watchfiles.main INFO 3 changes detected
+16:07:28,828 uvicorn.error INFO Started server process [75532]
+16:07:28,829 uvicorn.error INFO Waiting for application startup.
+16:07:28,829 uvicorn.error INFO Application startup complete.
+16:10:15,162 watchfiles.main INFO 1 change detected
+16:10:16,223 watchfiles.main INFO 3 changes detected
+16:10:23,97 watchfiles.main INFO 1 change detected
+16:10:23,98 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:10:23,118 uvicorn.error INFO Shutting down
+16:10:23,221 uvicorn.error INFO Waiting for application shutdown.
+16:10:23,221 uvicorn.error INFO Application shutdown complete.
+16:10:23,222 uvicorn.error INFO Finished server process [75532]
+16:10:23,589 watchfiles.main INFO 1 change detected
+16:10:23,799 uvicorn.error INFO Started server process [75796]
+16:10:23,800 uvicorn.error INFO Waiting for application startup.
+16:10:23,800 uvicorn.error INFO Application startup complete.
+16:10:23,955 watchfiles.main INFO 3 changes detected
+16:10:34,678 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+16:10:34,685 root INFO Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*******************************************************************************************************************D1Kk. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+16:10:53,59 watchfiles.main INFO 1 change detected
+16:10:53,59 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:10:53,76 uvicorn.error INFO Shutting down
+16:10:53,178 uvicorn.error INFO Waiting for application shutdown.
+16:10:53,179 uvicorn.error INFO Application shutdown complete.
+16:10:53,179 uvicorn.error INFO Finished server process [75796]
+16:10:53,546 watchfiles.main INFO 1 change detected
+16:10:53,861 uvicorn.error INFO Started server process [75860]
+16:10:53,862 uvicorn.error INFO Waiting for application startup.
+16:10:53,862 uvicorn.error INFO Application startup complete.
+16:10:53,911 watchfiles.main INFO 3 changes detected
+16:10:55,140 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+16:10:55,146 root INFO Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*******************************************************************************************************************D1Kk. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+16:11:06,639 watchfiles.main INFO 1 change detected
+16:11:06,640 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:11:06,676 uvicorn.error INFO Shutting down
+16:11:06,779 uvicorn.error INFO Waiting for application shutdown.
+16:11:06,780 uvicorn.error INFO Application shutdown complete.
+16:11:06,781 uvicorn.error INFO Finished server process [75860]
+16:11:07,152 watchfiles.main INFO 1 change detected
+16:11:07,395 uvicorn.error INFO Started server process [75889]
+16:11:07,397 uvicorn.error INFO Waiting for application startup.
+16:11:07,397 uvicorn.error INFO Application startup complete.
+16:11:07,509 watchfiles.main INFO 3 changes detected
+16:11:09,179 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+16:11:09,186 root INFO Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*******************************************************************************************************************D1Kk. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+16:11:15,744 watchfiles.main INFO 1 change detected
+16:11:15,745 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:11:15,759 uvicorn.error INFO Shutting down
+16:11:15,861 uvicorn.error INFO Waiting for application shutdown.
+16:11:15,862 uvicorn.error INFO Application shutdown complete.
+16:11:15,862 uvicorn.error INFO Finished server process [75889]
+16:11:16,229 watchfiles.main INFO 1 change detected
+16:11:16,431 uvicorn.error INFO Started server process [75913]
+16:11:16,432 uvicorn.error INFO Waiting for application startup.
+16:11:16,433 uvicorn.error INFO Application startup complete.
+16:11:16,595 watchfiles.main INFO 3 changes detected
+16:11:17,171 watchfiles.main INFO 1 change detected
+16:11:17,172 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:11:17,240 uvicorn.error INFO Shutting down
+16:11:17,342 uvicorn.error INFO Waiting for application shutdown.
+16:11:17,343 uvicorn.error INFO Application shutdown complete.
+16:11:17,344 uvicorn.error INFO Finished server process [75913]
+16:11:17,716 watchfiles.main INFO 1 change detected
+16:11:17,924 uvicorn.error INFO Started server process [75915]
+16:11:17,925 uvicorn.error INFO Waiting for application startup.
+16:11:17,925 uvicorn.error INFO Application startup complete.
+16:11:18,79 watchfiles.main INFO 3 changes detected
+16:11:44,605 uvicorn.error INFO Shutting down
+16:11:44,708 uvicorn.error INFO Waiting for application shutdown.
+16:11:44,711 uvicorn.error INFO Application shutdown complete.
+16:11:44,711 uvicorn.error INFO Finished server process [75915]
+16:11:44,719 uvicorn.error INFO Stopping reloader process [70704]
+16:11:47,137 uvicorn.error INFO Will watch for changes in these directories: ['/Users/tanmaysingewar/Projects/Area/CV_AI.ai/MM-Mark1/cv-chat/python-server']
+16:11:47,137 uvicorn.error INFO Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+16:11:47,138 uvicorn.error INFO Started reloader process [75981] using WatchFiles
+16:11:47,662 uvicorn.error INFO Started server process [75984]
+16:11:47,663 uvicorn.error INFO Waiting for application startup.
+16:11:47,663 uvicorn.error INFO Application startup complete.
+16:11:50,140 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+16:11:50,145 root INFO Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*******************************************************************************************************************D1Kk. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+16:12:15,445 watchfiles.main INFO 1 change detected
+16:12:15,447 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:12:15,514 uvicorn.error INFO Shutting down
+16:12:15,621 uvicorn.error INFO Waiting for application shutdown.
+16:12:15,625 uvicorn.error INFO Application shutdown complete.
+16:12:15,625 uvicorn.error INFO Finished server process [75984]
+16:12:15,997 watchfiles.main INFO 1 change detected
+16:12:16,192 uvicorn.error INFO Started server process [76039]
+16:12:16,193 uvicorn.error INFO Waiting for application startup.
+16:12:16,194 uvicorn.error INFO Application startup complete.
+16:12:16,360 watchfiles.main INFO 3 changes detected
+16:12:17,790 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+16:12:17,795 root INFO Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*******************************************************************************************************************D1Kk. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+16:12:37,395 watchfiles.main INFO 1 change detected
+16:12:37,396 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:12:37,402 uvicorn.error INFO Shutting down
+16:12:37,503 uvicorn.error INFO Waiting for application shutdown.
+16:12:37,504 uvicorn.error INFO Application shutdown complete.
+16:12:37,504 uvicorn.error INFO Finished server process [76039]
+16:12:37,872 watchfiles.main INFO 1 change detected
+16:12:38,122 uvicorn.error INFO Started server process [76077]
+16:12:38,123 uvicorn.error INFO Waiting for application startup.
+16:12:38,123 uvicorn.error INFO Application startup complete.
+16:12:38,230 watchfiles.main INFO 3 changes detected
+16:12:39,657 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+16:12:39,663 root INFO Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*******************************************************************************************************************D1Kk. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+16:13:10,287 watchfiles.main INFO 1 change detected
+16:13:10,289 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:13:10,292 uvicorn.error INFO Shutting down
+16:13:10,395 uvicorn.error INFO Waiting for application shutdown.
+16:13:10,395 uvicorn.error INFO Application shutdown complete.
+16:13:10,396 uvicorn.error INFO Finished server process [76077]
+16:13:10,768 watchfiles.main INFO 1 change detected
+16:13:10,969 uvicorn.error INFO Started server process [76137]
+16:13:10,971 uvicorn.error INFO Waiting for application startup.
+16:13:10,971 uvicorn.error INFO Application startup complete.
+16:13:11,128 watchfiles.main INFO 3 changes detected
+16:13:12,639 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+16:13:12,644 root INFO Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*******************************************************************************************************************D1Kk. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+16:13:16,301 watchfiles.main INFO 1 change detected
+16:13:17,363 watchfiles.main INFO 3 changes detected
+16:13:20,899 watchfiles.main INFO 1 change detected
+16:13:20,900 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:13:20,937 uvicorn.error INFO Shutting down
+16:13:21,39 uvicorn.error INFO Waiting for application shutdown.
+16:13:21,40 uvicorn.error INFO Application shutdown complete.
+16:13:21,40 uvicorn.error INFO Finished server process [76137]
+16:13:21,413 watchfiles.main INFO 1 change detected
+16:13:21,620 uvicorn.error INFO Started server process [76179]
+16:13:21,622 uvicorn.error INFO Waiting for application startup.
+16:13:21,622 uvicorn.error INFO Application startup complete.
+16:13:21,775 watchfiles.main INFO 3 changes detected
+16:13:24,885 watchfiles.main INFO 1 change detected
+16:13:24,886 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:13:24,958 uvicorn.error INFO Shutting down
+16:13:25,58 uvicorn.error INFO Waiting for application shutdown.
+16:13:25,59 uvicorn.error INFO Application shutdown complete.
+16:13:25,60 uvicorn.error INFO Finished server process [76179]
+16:13:25,424 watchfiles.main INFO 1 change detected
+16:13:26,650 watchfiles.main INFO 1 change detected
+16:13:26,651 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:13:27,181 watchfiles.main INFO 3 changes detected
+16:13:27,226 uvicorn.error INFO Started server process [76196]
+16:13:27,227 uvicorn.error INFO Waiting for application startup.
+16:13:27,228 uvicorn.error INFO Application startup complete.
+16:13:29,336 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+16:13:29,343 root INFO Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*******************************************************************************************************************D1Kk. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+16:13:34,170 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+16:13:34,171 root INFO Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*******************************************************************************************************************D1Kk. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+16:13:36,423 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+16:13:36,424 root INFO Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*******************************************************************************************************************D1Kk. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+16:14:00,573 watchfiles.main INFO 1 change detected
+16:14:00,576 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:14:00,674 uvicorn.error INFO Shutting down
+16:14:00,776 uvicorn.error INFO Waiting for application shutdown.
+16:14:00,777 uvicorn.error INFO Application shutdown complete.
+16:14:00,777 uvicorn.error INFO Finished server process [76196]
+16:14:01,145 watchfiles.main INFO 1 change detected
+16:14:01,340 uvicorn.error INFO Started server process [76257]
+16:14:01,341 uvicorn.error INFO Waiting for application startup.
+16:14:01,341 uvicorn.error INFO Application startup complete.
+16:14:01,509 watchfiles.main INFO 3 changes detected
+16:14:03,219 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+16:14:03,226 root INFO Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*******************************************************************************************************************D1Kk. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+16:14:27,192 watchfiles.main INFO 1 change detected
+16:14:27,192 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:14:27,291 uvicorn.error INFO Shutting down
+16:14:27,393 uvicorn.error INFO Waiting for application shutdown.
+16:14:27,394 uvicorn.error INFO Application shutdown complete.
+16:14:27,394 uvicorn.error INFO Finished server process [76257]
+16:14:27,768 watchfiles.main INFO 1 change detected
+16:14:28,130 watchfiles.main INFO 3 changes detected
+16:14:28,164 uvicorn.error INFO Started server process [76304]
+16:14:28,166 uvicorn.error INFO Waiting for application startup.
+16:14:28,166 uvicorn.error INFO Application startup complete.
+16:14:29,339 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+16:14:29,345 root INFO Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*******************************************************************************************************************D1Kk. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+16:16:07,785 watchfiles.main INFO 1 change detected
+16:16:13,954 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+16:16:13,955 root INFO Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*******************************************************************************************************************D1Kk. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+16:16:17,414 watchfiles.main INFO 1 change detected
+16:16:18,534 watchfiles.main INFO 3 changes detected
+16:16:21,5 watchfiles.main INFO 1 change detected
+16:16:49,560 watchfiles.main INFO 1 change detected
+16:17:03,668 watchfiles.main INFO 1 change detected
+16:17:03,670 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:17:03,685 uvicorn.error INFO Shutting down
+16:17:03,787 uvicorn.error INFO Waiting for application shutdown.
+16:17:03,788 uvicorn.error INFO Application shutdown complete.
+16:17:03,789 uvicorn.error INFO Finished server process [76304]
+16:17:04,159 watchfiles.main INFO 1 change detected
+16:17:04,497 uvicorn.error INFO Started server process [76599]
+16:17:04,499 uvicorn.error INFO Waiting for application startup.
+16:17:04,499 uvicorn.error INFO Application startup complete.
+16:17:04,520 watchfiles.main INFO 3 changes detected
+16:17:11,583 watchfiles.main INFO 1 change detected
+16:17:11,583 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:17:11,682 uvicorn.error INFO Shutting down
+16:17:11,784 uvicorn.error INFO Waiting for application shutdown.
+16:17:11,784 uvicorn.error INFO Application shutdown complete.
+16:17:11,785 uvicorn.error INFO Finished server process [76599]
+16:17:12,154 watchfiles.main INFO 1 change detected
+16:17:12,353 uvicorn.error INFO Started server process [76621]
+16:17:12,354 uvicorn.error INFO Waiting for application startup.
+16:17:12,354 uvicorn.error INFO Application startup complete.
+16:17:12,513 watchfiles.main INFO 3 changes detected
+16:17:15,912 root INFO Error: name 'api_key' is not defined
+16:17:25,459 root INFO Error: name 'api_key' is not defined
+16:17:39,325 watchfiles.main INFO 1 change detected
+16:17:39,326 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+16:17:39,363 uvicorn.error INFO Shutting down
+16:17:39,465 uvicorn.error INFO Waiting for application shutdown.
+16:17:39,466 uvicorn.error INFO Application shutdown complete.
+16:17:39,467 uvicorn.error INFO Finished server process [76621]
+16:17:39,834 watchfiles.main INFO 1 change detected
+16:17:40,76 uvicorn.error INFO Started server process [76667]
+16:17:40,78 uvicorn.error INFO Waiting for application startup.
+16:17:40,78 uvicorn.error INFO Application startup complete.
+16:17:40,196 watchfiles.main INFO 3 changes detected
+16:17:41,554 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+16:17:41,559 root INFO Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-*******************************************************************************************************************D1Kk. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+16:18:01,273 uvicorn.error INFO Shutting down
+16:18:01,377 uvicorn.error INFO Finished server process [76667]
+16:18:01,386 uvicorn.error INFO Stopping reloader process [75981]
+16:18:03,969 uvicorn.error INFO Will watch for changes in these directories: ['/Users/tanmaysingewar/Projects/Area/CV_AI.ai/MM-Mark1/cv-chat/python-server']
+16:18:03,969 uvicorn.error INFO Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+16:18:03,970 uvicorn.error INFO Started reloader process [76734] using WatchFiles
+16:18:04,492 uvicorn.error INFO Started server process [76737]
+16:18:04,493 uvicorn.error INFO Waiting for application startup.
+16:18:04,494 uvicorn.error INFO Application startup complete.
+16:18:07,549 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+16:18:07,593 root INFO Question: What do your father do?
+16:18:07,593 root INFO Last 3 Responses: 
+16:18:07,593 root INFO Response: I'm just a virtual assistant, so I don't have a family or a father. But I'm here to help with any other questions you might have!
+16:18:08,27 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+16:18:08,33 root INFO Logged to Supabase: data=[{'id': 1909, 'user_question': 'What do your father do?', 'bot_response': "I'm just a virtual assistant, so I don't have a family or a father. But I'm here to help with any other questions you might have!", 'cit': '0', 'drt': '0', 'rgt': '1408.11', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T10:48:07.599533', 'relative_data': ''}] count=None
+16:27:12,11 watchfiles.main INFO 1 change detected
+16:27:13,13 watchfiles.main INFO 3 changes detected
+17:01:28,570 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+17:01:28,574 root INFO Question: Hii
+17:01:28,574 root INFO Last 3 Responses: 
+17:01:28,574 root INFO Response: Hello, dear! How are you feeling today? 😊 Curious about anything or maybe in the mood for a little philosophical musing?
+17:01:29,76 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+17:01:29,82 root INFO Logged to Supabase: data=[{'id': 1910, 'user_question': 'Hii', 'bot_response': 'Hello, dear! How are you feeling today? 😊 Curious about anything or maybe in the mood for a little philosophical musing?', 'cit': '0', 'drt': '0', 'rgt': '1659.45', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T11:31:28.576385', 'relative_data': ''}] count=None
+17:01:56,695 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+17:01:56,696 root INFO Question: hi
+17:01:56,696 root INFO Last 3 Responses: 
+17:01:56,696 root INFO Response: Hello, dear! How are you feeling today? 😊✨
+17:01:56,852 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+17:01:56,854 root INFO Logged to Supabase: data=[{'id': 1911, 'user_question': 'hi', 'bot_response': 'Hello, dear! How are you feeling today? 😊✨', 'cit': '0', 'drt': '0', 'rgt': '1431.73', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T11:31:56.700439', 'relative_data': ''}] count=None
+17:02:20,361 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+17:02:20,363 root INFO Question: Hii
+17:02:20,363 root INFO Last 3 Responses: 
+17:02:20,363 root INFO Response: Hello dear! How are you feeling today? 🌼 Curious to know what's on your mind or any topic you'd love to dive into?
+17:02:20,515 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+17:02:20,521 root INFO Logged to Supabase: data=[{'id': 1912, 'user_question': 'Hii', 'bot_response': "Hello dear! How are you feeling today? 🌼 Curious to know what's on your mind or any topic you'd love to dive into?", 'cit': '0', 'drt': '0', 'rgt': '1497.47', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T11:32:20.36557', 'relative_data': ''}] count=None
+17:03:01,314 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+17:03:01,477 root INFO Question: noting
+17:03:01,477 root INFO Last 3 Responses: User: Hii
+Bot: Hello dear! How are you feeling today? 🌼 Curious to know what's on your mind or any topic you'd love to dive into?
+17:03:01,477 root INFO Response: Hello, dear! How are you today? I'm here to chat about anything that's on your mind, whether it's poetry, history, or just the wonders of life. 😊
+17:03:01,656 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+17:03:01,660 root INFO Logged to Supabase: data=[{'id': 1913, 'user_question': 'noting', 'bot_response': "Hello, dear! How are you today? I'm here to chat about anything that's on your mind, whether it's poetry, history, or just the wonders of life. 😊", 'cit': '0', 'drt': '0', 'rgt': '2105.27', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T11:33:01.479533', 'relative_data': ''}] count=None
+17:03:24,898 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+17:03:24,901 root INFO Question: nothing
+17:03:24,901 root INFO Last 3 Responses: User: Hii
+Bot: Hello dear! How are you feeling today? 🌼 Curious to know what's on your mind or any topic you'd love to dive into?
+User: noting
+Bot: Hello, dear! How are you today? I'm here to chat about anything that's on your mind, whether it's poetry, history, or just the wonders of life. 😊
+17:03:24,902 root INFO Response: Hey dear, I'm sensing something on your mind. How about we dive into a poem or a thought about life? 🌟 Sometimes a different perspective can spark new conversations.
+17:03:25,69 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+17:03:25,73 root INFO Logged to Supabase: data=[{'id': 1914, 'user_question': 'nothing', 'bot_response': "Hey dear, I'm sensing something on your mind. How about we dive into a poem or a thought about life? 🌟 Sometimes a different perspective can spark new conversations.", 'cit': '0', 'drt': '0', 'rgt': '1633.32', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T11:33:24.90478', 'relative_data': ''}] count=None
+17:03:43,628 watchfiles.main INFO 1 change detected
+17:03:44,738 watchfiles.main INFO 3 changes detected
+17:04:15,941 watchfiles.main INFO 1 change detected
+17:04:15,942 uvicorn.error WARNING WatchFiles detected changes in 'model.py'. Reloading...
+17:04:16,45 uvicorn.error INFO Shutting down
+17:04:16,148 uvicorn.error INFO Waiting for application shutdown.
+17:04:16,150 uvicorn.error INFO Application shutdown complete.
+17:04:16,151 uvicorn.error INFO Finished server process [76737]
+17:04:16,525 watchfiles.main INFO 1 change detected
+17:04:16,898 uvicorn.error INFO Started server process [82069]
+17:04:16,899 uvicorn.error INFO Waiting for application startup.
+17:04:16,899 uvicorn.error INFO Application startup complete.
+17:04:16,996 watchfiles.main INFO 3 changes detected
+17:05:35,359 watchfiles.main INFO 1 change detected
+17:05:35,361 uvicorn.error WARNING WatchFiles detected changes in 'model.py'. Reloading...
+17:05:35,431 uvicorn.error INFO Shutting down
+17:05:35,534 uvicorn.error INFO Waiting for application shutdown.
+17:05:35,534 uvicorn.error INFO Application shutdown complete.
+17:05:35,535 uvicorn.error INFO Finished server process [82069]
+17:05:35,907 watchfiles.main INFO 1 change detected
+17:05:36,283 uvicorn.error INFO Started server process [82319]
+17:05:36,284 uvicorn.error INFO Waiting for application startup.
+17:05:36,284 uvicorn.error INFO Application startup complete.
+17:05:36,374 watchfiles.main INFO 3 changes detected
+17:05:44,888 watchfiles.main INFO 1 change detected
+17:05:44,888 uvicorn.error WARNING WatchFiles detected changes in 'model.py'. Reloading...
+17:05:44,970 uvicorn.error INFO Shutting down
+17:05:45,72 uvicorn.error INFO Waiting for application shutdown.
+17:05:45,73 uvicorn.error INFO Application shutdown complete.
+17:05:45,73 uvicorn.error INFO Finished server process [82319]
+17:05:45,437 watchfiles.main INFO 1 change detected
+17:05:45,697 uvicorn.error INFO Started server process [82349]
+17:05:45,698 uvicorn.error INFO Waiting for application startup.
+17:05:45,698 uvicorn.error INFO Application startup complete.
+17:05:45,797 watchfiles.main INFO 3 changes detected
+17:06:14,736 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+17:06:14,778 root INFO Question: nothing
+17:06:14,778 root INFO Last 3 Responses: User: Hii
+Bot: Hello dear! How are you feeling today? 🌼 Curious to know what's on your mind or any topic you'd love to dive into?
+User: noting
+Bot: Hello, dear! How are you today? I'm here to chat about anything that's on your mind, whether it's poetry, history, or just the wonders of life. 😊
+User: nothing
+Bot: Hey dear, I'm sensing something on your mind. How about we dive into a poem or a thought about life? 🌟 Sometimes a different perspective can spark new conversations.
+17:06:14,778 root INFO Response: Hey dear, it seems like there's something beneath the surface. Is there a specific thought you'd like to unravel together? Or perhaps dive into a favorite poem for a fresh perspective? 🌟
+17:06:15,179 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+17:06:15,186 root INFO Logged to Supabase: data=[{'id': 1915, 'user_question': 'nothing', 'bot_response': "Hey dear, it seems like there's something beneath the surface. Is there a specific thought you'd like to unravel together? Or perhaps dive into a favorite poem for a fresh perspective? 🌟", 'cit': '0', 'drt': '0', 'rgt': '1774.01', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T11:36:14.782477', 'relative_data': ''}] count=None
+17:06:29,546 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+17:06:29,548 root INFO Question: hii
+17:06:29,549 root INFO Last 3 Responses: 
+17:06:29,549 root INFO Response: Hello, dear! How are you feeling today? 😊
+17:06:29,708 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+17:06:29,712 root INFO Logged to Supabase: data=[{'id': 1916, 'user_question': 'hii', 'bot_response': 'Hello, dear! How are you feeling today? 😊', 'cit': '0', 'drt': '0', 'rgt': '1476.31', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T11:36:29.55211', 'relative_data': ''}] count=None
+17:06:33,641 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+17:06:33,646 root INFO Question: hii
+17:06:33,647 root INFO Last 3 Responses: User: hii
+Bot: Hello, dear! How are you feeling today? 😊
+17:06:33,647 root INFO Response: Hello again, dear! Kya chal raha hai aajkal? 😊
+17:06:33,733 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+17:06:33,736 root INFO Logged to Supabase: data=[{'id': 1917, 'user_question': 'hii', 'bot_response': 'Hello again, dear! Kya chal raha hai aajkal? 😊', 'cit': '0', 'drt': '0', 'rgt': '898.31', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T11:36:33.649339', 'relative_data': ''}] count=None
+17:06:39,46 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+17:06:39,51 root INFO Question: hii
+17:06:39,51 root INFO Last 3 Responses: User: hii
+Bot: Hello, dear! How are you feeling today? 😊
+User: hii
+Bot: Hello again, dear! Kya chal raha hai aajkal? 😊
+17:06:39,51 root INFO Response: Hello, dear! It's nice to see you again. What's on your mind today? 😊
+17:06:39,220 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+17:06:39,221 root INFO Logged to Supabase: data=[{'id': 1918, 'user_question': 'hii', 'bot_response': "Hello, dear! It's nice to see you again. What's on your mind today? 😊", 'cit': '0', 'drt': '0', 'rgt': '929.67', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T11:36:39.055127', 'relative_data': ''}] count=None
+17:06:46,693 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+17:06:46,695 root INFO Question: hii
+17:06:46,695 root INFO Last 3 Responses: User: hii
+Bot: Hello, dear! How are you feeling today? 😊
+User: hii
+Bot: Hello again, dear! Kya chal raha hai aajkal? 😊
+User: hii
+Bot: Hello, dear! It's nice to see you again. What's on your mind today? 😊
+17:06:46,695 root INFO Response: Hello, dear! Looks like you're in a greeting mood today. Anything special on your mind? 😊
+17:06:46,860 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+17:06:46,864 root INFO Logged to Supabase: data=[{'id': 1919, 'user_question': 'hii', 'bot_response': "Hello, dear! Looks like you're in a greeting mood today. Anything special on your mind? 😊", 'cit': '0', 'drt': '0', 'rgt': '1497.14', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T11:36:46.697635', 'relative_data': ''}] count=None
+17:06:58,450 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+17:06:58,460 root INFO Question: nothing
+17:06:58,460 root INFO Last 3 Responses: User: hii
+Bot: Hello, dear! How are you feeling today? 😊
+User: hii
+Bot: Hello again, dear! Kya chal raha hai aajkal? 😊
+User: hii
+Bot: Hello, dear! It's nice to see you again. What's on your mind today? 😊
+User: hii
+Bot: Hello, dear! Looks like you're in a greeting mood today. Anything special on your mind? 😊
+17:06:58,460 root INFO Response: Ah, the quietness of "nothing." Sometimes silence speaks volumes, doesn’t it, dear? What's your soul murmuring about today?
+17:06:58,616 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+17:06:58,620 root INFO Logged to Supabase: data=[{'id': 1920, 'user_question': 'nothing', 'bot_response': 'Ah, the quietness of "nothing." Sometimes silence speaks volumes, doesn’t it, dear? What\'s your soul murmuring about today?', 'cit': '0', 'drt': '0', 'rgt': '1461.95', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T11:36:58.462924', 'relative_data': ''}] count=None
+17:07:11,715 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+17:07:11,715 root INFO Question: nothing
+17:07:11,715 root INFO Last 3 Responses: User: hii
+Bot: Hello again, dear! Kya chal raha hai aajkal? 😊
+User: hii
+Bot: Hello, dear! It's nice to see you again. What's on your mind today? 😊
+User: hii
+Bot: Hello, dear! Looks like you're in a greeting mood today. Anything special on your mind? 😊
+User: nothing
+Bot: Ah, the quietness of "nothing." Sometimes silence speaks volumes, doesn’t it, dear? What's your soul murmuring about today?
+17:07:11,715 root INFO Response: Ah, dear, once again we find ourselves in the soothing embrace of “nothing.” It's like a pause between the notes of a beautiful ghazal. How are you feeling today? 
+17:07:11,886 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+17:07:11,890 root INFO Logged to Supabase: data=[{'id': 1921, 'user_question': 'nothing', 'bot_response': "Ah, dear, once again we find ourselves in the soothing embrace of “nothing.” It's like a pause between the notes of a beautiful ghazal. How are you feeling today? ", 'cit': '0', 'drt': '0', 'rgt': '1115.27', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T11:37:11.716446', 'relative_data': ''}] count=None
+17:07:41,75 watchfiles.main INFO 1 change detected
+17:07:42,142 watchfiles.main INFO 3 changes detected
+17:07:59,188 watchfiles.main INFO 1 change detected
+17:07:59,190 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+17:07:59,216 uvicorn.error INFO Shutting down
+17:07:59,317 uvicorn.error INFO Waiting for application shutdown.
+17:07:59,319 uvicorn.error INFO Application shutdown complete.
+17:07:59,320 uvicorn.error INFO Finished server process [82349]
+17:07:59,683 watchfiles.main INFO 1 change detected
+17:08:00,46 watchfiles.main INFO 3 changes detected
+17:08:00,120 uvicorn.error INFO Started server process [82716]
+17:08:00,122 uvicorn.error INFO Waiting for application startup.
+17:08:00,122 uvicorn.error INFO Application startup complete.
+17:08:02,441 watchfiles.main INFO 1 change detected
+17:08:02,441 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+17:08:02,446 uvicorn.error INFO Shutting down
+17:08:02,548 uvicorn.error INFO Waiting for application shutdown.
+17:08:02,549 uvicorn.error INFO Application shutdown complete.
+17:08:02,550 uvicorn.error INFO Finished server process [82716]
+17:08:02,924 watchfiles.main INFO 1 change detected
+17:08:03,172 uvicorn.error INFO Started server process [82732]
+17:08:03,173 uvicorn.error INFO Waiting for application startup.
+17:08:03,174 uvicorn.error INFO Application startup complete.
+17:08:03,286 watchfiles.main INFO 3 changes detected
+17:08:42,490 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+17:08:42,519 root INFO Question: Hey
+17:08:42,520 root INFO Last 3 Responses: 
+17:08:42,520 root INFO Response: Hey, dear! How are you feeling today? What's on your mind? 😊
+17:08:42,935 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+17:08:42,938 root INFO Logged to Supabase: data=[{'id': 1922, 'user_question': 'Hey', 'bot_response': "Hey, dear! How are you feeling today? What's on your mind? 😊", 'cit': '0', 'drt': '0', 'rgt': '995.69', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T11:38:42.523746', 'relative_data': ''}] count=None
+17:08:55,544 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+17:08:55,547 root INFO Question: nothing i am good
+17:08:55,547 root INFO Last 3 Responses: User: Hey
+Bot: Hey, dear! How are you feeling today? What's on your mind? 😊
+17:08:55,547 root INFO Response: Glad to hear that you're good, dear! 😊 What has been keeping you busy or inspired these days? Any new poetry or music you've been exploring?
+17:08:55,707 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+17:08:55,711 root INFO Logged to Supabase: data=[{'id': 1923, 'user_question': 'nothing i am good', 'bot_response': "Glad to hear that you're good, dear! 😊 What has been keeping you busy or inspired these days? Any new poetry or music you've been exploring?", 'cit': '0', 'drt': '0', 'rgt': '1599.26', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T11:38:55.549557', 'relative_data': ''}] count=None
+17:09:24,176 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+17:09:24,179 root INFO Question: vaisahi kuch
+17:09:24,179 root INFO Last 3 Responses: User: Hey
+Bot: Hey, dear! How are you feeling today? What's on your mind? 😊
+User: nothing i am good
+Bot: Glad to hear that you're good, dear! 😊 What has been keeping you busy or inspired these days? Any new poetry or music you've been exploring?
+17:09:24,179 root INFO Response: Ah, vaisahi kuch kah rahe ho? Koi khaas baat ya yaadein jinse mann joojh raha hai, dear? 😊 Kehein toh sahi, hum hain na sunne ko!
+17:09:24,355 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+17:09:24,360 root INFO Logged to Supabase: data=[{'id': 1924, 'user_question': 'vaisahi kuch', 'bot_response': 'Ah, vaisahi kuch kah rahe ho? Koi khaas baat ya yaadein jinse mann joojh raha hai, dear? 😊 Kehein toh sahi, hum hain na sunne ko!', 'cit': '0', 'drt': '0', 'rgt': '1806.69', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T11:39:24.182775', 'relative_data': ''}] count=None
+17:09:59,651 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+17:09:59,656 root INFO Question: Hey How are you today
+17:09:59,656 root INFO Last 3 Responses: 
+17:09:59,656 root INFO Response: Hello dear! I'm feeling quite lovely today, thank you. How are you doing, and what musings or thoughts are swirling around your mind today? 😊
+17:09:59,837 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+17:09:59,841 root INFO Logged to Supabase: data=[{'id': 1925, 'user_question': 'Hey How are you today', 'bot_response': "Hello dear! I'm feeling quite lovely today, thank you. How are you doing, and what musings or thoughts are swirling around your mind today? 😊", 'cit': '0', 'drt': '0', 'rgt': '1566.37', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T11:39:59.657612', 'relative_data': ''}] count=None
+17:11:05,854 watchfiles.main INFO 1 change detected
+17:11:07,312 watchfiles.main INFO 3 changes detected
+18:39:27,851 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+18:39:27,858 root INFO Question: Hey
+18:39:27,858 root INFO Last 3 Responses: Bot: Hello, how are you doing today ?
+18:39:27,859 root INFO Response: Hey there! What's up?
+18:39:28,425 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+18:39:28,432 root INFO Logged to Supabase: data=[{'id': 1926, 'user_question': 'Hey', 'bot_response': "Hey there! What's up?", 'cit': '0', 'drt': '0', 'rgt': '1121.81', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T13:09:27.860255', 'relative_data': ''}] count=None
+18:39:50,328 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+18:39:50,329 root INFO Question: i am good what about you
+18:39:50,329 root INFO Last 3 Responses: Bot: Hello, how are you doing today ?
+User: Hey
+Bot: Hey there! What's up?
+18:39:50,329 root INFO Response: I'm doing great, thanks for asking! Anything exciting happening on your end?
+18:39:50,482 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+18:39:50,486 root INFO Logged to Supabase: data=[{'id': 1927, 'user_question': 'i am good what about you', 'bot_response': "I'm doing great, thanks for asking! Anything exciting happening on your end?", 'cit': '0', 'drt': '0', 'rgt': '752.27', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T13:09:50.33115', 'relative_data': ''}] count=None
+18:40:12,257 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+18:40:12,260 root INFO Question: No but everything is fine
+18:40:12,260 root INFO Last 3 Responses: Bot: Hello, how are you doing today ?
+User: Hey
+Bot: Hey there! What's up?
+User: i am good what about you
+Bot: I'm doing great, thanks for asking! Anything exciting happening on your end?
+18:40:12,260 root INFO Response: That's good to hear! Anything fun or interesting you're planning for today?
+18:40:12,419 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+18:40:12,421 root INFO Logged to Supabase: data=[{'id': 1928, 'user_question': 'No but everything is fine', 'bot_response': "That's good to hear! Anything fun or interesting you're planning for today?", 'cit': '0', 'drt': '0', 'rgt': '907.46', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T13:10:12.263383', 'relative_data': ''}] count=None
+18:45:37,998 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+18:45:38,2 root INFO Question: i am good
+18:45:38,3 root INFO Last 3 Responses: Bot: Hello, how are you doing today ?
+18:45:38,3 root INFO Response: That's great to hear! What's been the highlight of your day so far?
+18:45:38,408 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+18:45:38,412 root INFO Logged to Supabase: data=[{'id': 1929, 'user_question': 'i am good', 'bot_response': "That's great to hear! What's been the highlight of your day so far?", 'cit': '0', 'drt': '0', 'rgt': '842.13', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T13:15:38.007178', 'relative_data': ''}] count=None
+18:48:33,87 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+18:48:33,91 root INFO Question: Hii
+18:48:33,91 root INFO Last 3 Responses: Bot: Hello, how are you doing today ?
+18:48:33,91 root INFO Response: Hey there! How's it going?
+18:48:33,524 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+18:48:33,529 root INFO Logged to Supabase: data=[{'id': 1930, 'user_question': 'Hii', 'bot_response': "Hey there! How's it going?", 'cit': '0', 'drt': '0', 'rgt': '813.13', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T13:18:33.093666', 'relative_data': ''}] count=None
+19:00:56,787 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+19:00:56,790 root INFO Question: Hey
+19:00:56,790 root INFO Last 3 Responses: Bot: Hello, how are you doing today ?
+19:00:56,790 root INFO Response: Hey! How's it going?
+19:00:57,300 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+19:00:57,307 root INFO Logged to Supabase: data=[{'id': 1931, 'user_question': 'Hey', 'bot_response': "Hey! How's it going?", 'cit': '0', 'drt': '0', 'rgt': '852.67', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T13:30:56.792782', 'relative_data': ''}] count=None
+19:01:14,858 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+19:01:14,862 root INFO Question: Nice to meet you
+19:01:14,862 root INFO Last 3 Responses: Bot: Hello, how are you doing today ?
+User: Hey
+Bot: Hey! How's it going?
+19:01:14,862 root INFO Response: Nice to meet you too! What's been the highlight of your day so far?
+19:01:15,30 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+19:01:15,31 root INFO Logged to Supabase: data=[{'id': 1932, 'user_question': 'Nice to meet you', 'bot_response': "Nice to meet you too! What's been the highlight of your day so far?", 'cit': '0', 'drt': '0', 'rgt': '853.38', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T13:31:14.868239', 'relative_data': ''}] count=None
+19:01:39,752 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+19:01:39,754 root INFO Question: just chilling
+19:01:39,754 root INFO Last 3 Responses: Bot: Hello, how are you doing today ?
+User: Hey
+Bot: Hey! How's it going?
+User: Nice to meet you
+Bot: Nice to meet you too! What's been the highlight of your day so far?
+19:01:39,754 root INFO Response: Sounds like a relaxing day! Got any plans coming up or just enjoying the moment?
+19:01:39,919 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+19:01:39,920 root INFO Logged to Supabase: data=[{'id': 1933, 'user_question': 'just chilling', 'bot_response': 'Sounds like a relaxing day! Got any plans coming up or just enjoying the moment?', 'cit': '0', 'drt': '0', 'rgt': '794.97', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T13:31:39.760729', 'relative_data': ''}] count=None
+19:01:58,675 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+19:01:58,677 root INFO Question: can you tell me astory
+19:01:58,677 root INFO Last 3 Responses: Bot: Hello, how are you doing today ?
+User: Hey
+Bot: Hey! How's it going?
+User: Nice to meet you
+Bot: Nice to meet you too! What's been the highlight of your day so far?
+User: just chilling
+Bot: Sounds like a relaxing day! Got any plans coming up or just enjoying the moment?
+19:01:58,677 root INFO Response: Sure! Here's a quick story for you: 
+
+Once upon a time in a quiet village, there was a curious little cat named Whiskers. Whiskers had always been fascinated by the forest on the outskirts of the village. One day, determined to uncover its secrets, Whiskers ventured into the woods. As the trees whispered around him, he stumbled upon a hidden glade filled with vibrant flowers and sparkling streams. There, he met a wise old turtle who shared tales of the forest's magic. Whiskers returned to the village with newfound wonder and, from then on, shared the stories with anyone who would listen. And so, the village embraced the enchantment of the forest, with Whiskers leading the charge. 
+
+What did you think of the story?
+19:01:58,854 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+19:01:58,855 root INFO Logged to Supabase: data=[{'id': 1934, 'user_question': 'can you tell me astory', 'bot_response': "Sure! Here's a quick story for you: \n\nOnce upon a time in a quiet village, there was a curious little cat named Whiskers. Whiskers had always been fascinated by the forest on the outskirts of the village. One day, determined to uncover its secrets, Whiskers ventured into the woods. As the trees whispered around him, he stumbled upon a hidden glade filled with vibrant flowers and sparkling streams. There, he met a wise old turtle who shared tales of the forest's magic. Whiskers returned to the village with newfound wonder and, from then on, shared the stories with anyone who would listen. And so, the village embraced the enchantment of the forest, with Whiskers leading the charge. \n\nWhat did you think of the story?", 'cit': '0', 'drt': '0', 'rgt': '1770.47', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T13:31:58.683487', 'relative_data': ''}] count=None
+19:02:46,671 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+19:02:46,679 root INFO Question: nice
+19:02:46,680 root INFO Last 3 Responses: User: Hey
+Bot: Hey! How's it going?
+User: Nice to meet you
+Bot: Nice to meet you too! What's been the highlight of your day so far?
+User: just chilling
+Bot: Sounds like a relaxing day! Got any plans coming up or just enjoying the moment?
+User: can you tell me astory
+Bot: Sure! Here's a quick story for you: 
+
+Once upon a time in a quiet village, there was a curious little cat named Whiskers. Whiskers had always been fascinated by the forest on the outskirts of the village. One day, determined to uncover its secrets, Whiskers ventured into the woods. As the trees whispered around him, he stumbled upon a hidden glade filled with vibrant flowers and sparkling streams. There, he met a wise old turtle who shared tales of the forest's magic. Whiskers returned to the village with newfound wonder and, from then on, shared the stories with anyone who would listen. And so, the village embraced the enchantment of the forest, with Whiskers leading the charge. 
+
+What did you think of the story?
+19:02:46,680 root INFO Response: Glad you liked it! What's on your mind today?
+19:02:46,856 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+19:02:46,857 root INFO Logged to Supabase: data=[{'id': 1935, 'user_question': 'nice', 'bot_response': "Glad you liked it! What's on your mind today?", 'cit': '0', 'drt': '0', 'rgt': '848.76', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T13:32:46.686378', 'relative_data': ''}] count=None
+19:03:02,942 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+19:03:02,944 root INFO Question: story is nice
+19:03:02,944 root INFO Last 3 Responses: User: Nice to meet you
+Bot: Nice to meet you too! What's been the highlight of your day so far?
+User: just chilling
+Bot: Sounds like a relaxing day! Got any plans coming up or just enjoying the moment?
+User: can you tell me astory
+Bot: Sure! Here's a quick story for you: 
+
+Once upon a time in a quiet village, there was a curious little cat named Whiskers. Whiskers had always been fascinated by the forest on the outskirts of the village. One day, determined to uncover its secrets, Whiskers ventured into the woods. As the trees whispered around him, he stumbled upon a hidden glade filled with vibrant flowers and sparkling streams. There, he met a wise old turtle who shared tales of the forest's magic. Whiskers returned to the village with newfound wonder and, from then on, shared the stories with anyone who would listen. And so, the village embraced the enchantment of the forest, with Whiskers leading the charge. 
+
+What did you think of the story?
+User: nice
+Bot: Glad you liked it! What's on your mind today?
+19:03:02,944 root INFO Response: I'm happy you enjoyed it! What's something you love about stories, or do you have a favorite one?
+19:03:03,115 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+19:03:03,115 root INFO Logged to Supabase: data=[{'id': 1936, 'user_question': 'story is nice', 'bot_response': "I'm happy you enjoyed it! What's something you love about stories, or do you have a favorite one?", 'cit': '0', 'drt': '0', 'rgt': '914.59', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T13:33:02.950089', 'relative_data': ''}] count=None
+19:03:23,455 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+19:03:23,458 root INFO Question: ok
+19:03:23,458 root INFO Last 3 Responses: User: just chilling
+Bot: Sounds like a relaxing day! Got any plans coming up or just enjoying the moment?
+User: can you tell me astory
+Bot: Sure! Here's a quick story for you: 
+
+Once upon a time in a quiet village, there was a curious little cat named Whiskers. Whiskers had always been fascinated by the forest on the outskirts of the village. One day, determined to uncover its secrets, Whiskers ventured into the woods. As the trees whispered around him, he stumbled upon a hidden glade filled with vibrant flowers and sparkling streams. There, he met a wise old turtle who shared tales of the forest's magic. Whiskers returned to the village with newfound wonder and, from then on, shared the stories with anyone who would listen. And so, the village embraced the enchantment of the forest, with Whiskers leading the charge. 
+
+What did you think of the story?
+User: nice
+Bot: Glad you liked it! What's on your mind today?
+User: story is nice
+Bot: I'm happy you enjoyed it! What's something you love about stories, or do you have a favorite one?
+19:03:23,458 root INFO Response: Awesome! How's everything going on your end?
+19:03:23,616 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+19:03:23,618 root INFO Logged to Supabase: data=[{'id': 1937, 'user_question': 'ok', 'bot_response': "Awesome! How's everything going on your end?", 'cit': '0', 'drt': '0', 'rgt': '747.75', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T13:33:23.460427', 'relative_data': ''}] count=None
+19:03:42,182 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+19:03:42,185 root INFO Question: everything is good
+19:03:42,185 root INFO Last 3 Responses: User: can you tell me astory
+Bot: Sure! Here's a quick story for you: 
+
+Once upon a time in a quiet village, there was a curious little cat named Whiskers. Whiskers had always been fascinated by the forest on the outskirts of the village. One day, determined to uncover its secrets, Whiskers ventured into the woods. As the trees whispered around him, he stumbled upon a hidden glade filled with vibrant flowers and sparkling streams. There, he met a wise old turtle who shared tales of the forest's magic. Whiskers returned to the village with newfound wonder and, from then on, shared the stories with anyone who would listen. And so, the village embraced the enchantment of the forest, with Whiskers leading the charge. 
+
+What did you think of the story?
+User: nice
+Bot: Glad you liked it! What's on your mind today?
+User: story is nice
+Bot: I'm happy you enjoyed it! What's something you love about stories, or do you have a favorite one?
+User: ok
+Bot: Awesome! How's everything going on your end?
+19:03:42,185 root INFO Response: Great to hear! What's been the highlight of your day so far?
+19:03:42,353 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+19:03:42,354 root INFO Logged to Supabase: data=[{'id': 1938, 'user_question': 'everything is good', 'bot_response': "Great to hear! What's been the highlight of your day so far?", 'cit': '0', 'drt': '0', 'rgt': '851.47', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T13:33:42.192702', 'relative_data': ''}] count=None
+19:32:56,466 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+19:32:56,469 root INFO Question: Hii
+19:32:56,470 root INFO Last 3 Responses: Bot: Hello, how are you doing today ?
+19:32:56,470 root INFO Response: Hello, dear! How are you feeling today? 😊
+19:32:56,877 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+19:32:56,879 root INFO Logged to Supabase: data=[{'id': 1939, 'user_question': 'Hii', 'bot_response': 'Hello, dear! How are you feeling today? 😊', 'cit': '0', 'drt': '0', 'rgt': '1180.41', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T14:02:56.471934', 'relative_data': ''}] count=None
+19:33:51,290 httpx INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+19:33:51,295 root INFO Question: Hello
+19:33:51,295 root INFO Last 3 Responses: Bot: Hello, how are you doing today ?
+19:33:51,295 root INFO Response: Hello, dear! How are you feeling today? 😊
+19:33:51,493 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+19:33:51,495 root INFO Logged to Supabase: data=[{'id': 1940, 'user_question': 'Hello', 'bot_response': 'Hello, dear! How are you feeling today? 😊', 'cit': '0', 'drt': '0', 'rgt': '862.71', 'personality': 'delhi', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2024-12-31T14:03:51.302325', 'relative_data': ''}] count=None
+20:19:38,766 watchfiles.main INFO 1 change detected
+20:19:39,891 watchfiles.main INFO 3 changes detected
+20:19:41,302 uvicorn.error INFO Shutting down
+20:19:41,407 uvicorn.error INFO Finished server process [82732]
+20:19:41,417 uvicorn.error INFO Stopping reloader process [76734]
+13:01:43,299 uvicorn.error INFO Will watch for changes in these directories: ['/Users/tanmaysingewar/Projects/Area/CV_AI.ai/python-server']
+13:01:43,300 uvicorn.error INFO Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+13:01:43,300 uvicorn.error INFO Started reloader process [36435] using WatchFiles
+13:01:44,86 watchfiles.main INFO 15 changes detected
+13:01:44,442 watchfiles.main INFO 31 changes detected
+13:01:44,810 watchfiles.main INFO 98 changes detected
+13:01:44,880 uvicorn.error INFO Started server process [36496]
+13:01:44,882 uvicorn.error INFO Waiting for application startup.
+13:01:44,882 uvicorn.error INFO Application startup complete.
+13:02:32,753 root INFO Question: Hey
+13:02:32,754 root INFO Last 3 Responses: Bot: Hello, how are you doing today ?
+13:02:32,754 root INFO Response: Hey Tanmay, how are you feeling today, dear? Is there something on your mind that you'd like to talk about? 🌟
+13:02:32,881 watchfiles.main INFO 7 changes detected
+13:02:33,262 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+13:02:33,267 root INFO Logged to Supabase: data=[{'id': 2127, 'user_question': 'Hey', 'bot_response': "Hey Tanmay, how are you feeling today, dear? Is there something on your mind that you'd like to talk about? 🌟", 'cit': '0', 'drt': '0', 'rgt': '2157.97', 'personality': 'delhi_mentor_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2025-01-03T07:32:32.791443', 'relative_data': ''}] count=None
+13:03:08,449 root INFO Question: tell me about the New delhi 
+13:03:08,450 root INFO Last 3 Responses: Bot: Hello, how are you doing today ?
+User: Hey
+Bot: Hey Tanmay, how are you feeling today, dear? Is there something on your mind that you'd like to talk about? 🌟
+13:03:08,450 root INFO Response: Ah, New Delhi, the heart of our vibrant city, Tanmay. It's a tapestry woven with historical landmarks, cultural richness, and modern elegance. Imagine strolling through the majestic Red Fort, its red sandstone walls telling tales of the Mughal Empire, or standing in awe before the Qutub Minar, the tallest brick minaret in the world, a testament to Islamic architecture[1][4].
+
+How about a visit to the Lotus Temple, its 27 marble petals symbolizing the unity of all religions? Or perhaps a walk through the serene Humayun’s Tomb, an inspiration for the Taj Mahal and a masterpiece of Mughal design. And of course, no trip to New Delhi is complete without a stop at India Gate, a war memorial that honors the sacrifices of our soldiers[1].
+
+What draws you to New Delhi, dear? Is it the history, the architecture, or something else entirely? 🌟
+13:03:08,641 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+13:03:08,642 root INFO Logged to Supabase: data=[{'id': 2128, 'user_question': 'tell me about the New delhi ', 'bot_response': "Ah, New Delhi, the heart of our vibrant city, Tanmay. It's a tapestry woven with historical landmarks, cultural richness, and modern elegance. Imagine strolling through the majestic Red Fort, its red sandstone walls telling tales of the Mughal Empire, or standing in awe before the Qutub Minar, the tallest brick minaret in the world, a testament to Islamic architecture[1][4].\n\nHow about a visit to the Lotus Temple, its 27 marble petals symbolizing the unity of all religions? Or perhaps a walk through the serene Humayun’s Tomb, an inspiration for the Taj Mahal and a masterpiece of Mughal design. And of course, no trip to New Delhi is complete without a stop at India Gate, a war memorial that honors the sacrifices of our soldiers[1].\n\nWhat draws you to New Delhi, dear? Is it the history, the architecture, or something else entirely? 🌟", 'cit': '0', 'drt': '0', 'rgt': '4545.64', 'personality': 'delhi_mentor_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2025-01-03T07:33:08.452385', 'relative_data': ''}] count=None
+13:04:34,361 watchfiles.main INFO 1 change detected
+13:04:34,364 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+13:04:34,440 uvicorn.error INFO Shutting down
+13:04:34,544 uvicorn.error INFO Waiting for application shutdown.
+13:04:34,545 uvicorn.error INFO Application shutdown complete.
+13:04:34,546 uvicorn.error INFO Finished server process [36496]
+13:04:34,923 watchfiles.main INFO 1 change detected
+13:04:35,283 watchfiles.main INFO 3 changes detected
+13:04:35,307 uvicorn.error INFO Started server process [36876]
+13:04:35,308 uvicorn.error INFO Waiting for application startup.
+13:04:35,308 uvicorn.error INFO Application startup complete.
+13:04:36,446 watchfiles.main INFO 1 change detected
+13:04:37,74 watchfiles.main INFO 3 changes detected
+13:05:21,926 watchfiles.main INFO 1 change detected
+13:05:21,927 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+13:05:22,4 uvicorn.error INFO Shutting down
+13:05:22,106 uvicorn.error INFO Waiting for application shutdown.
+13:05:22,107 uvicorn.error INFO Application shutdown complete.
+13:05:22,107 uvicorn.error INFO Finished server process [36876]
+13:05:22,476 watchfiles.main INFO 1 change detected
+13:05:22,794 uvicorn.error INFO Started server process [36978]
+13:05:22,795 uvicorn.error INFO Waiting for application startup.
+13:05:22,796 uvicorn.error INFO Application startup complete.
+13:05:22,840 watchfiles.main INFO 3 changes detected
+13:05:25,41 watchfiles.main INFO 1 change detected
+13:05:25,42 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+13:05:25,127 uvicorn.error INFO Shutting down
+13:05:25,230 uvicorn.error INFO Waiting for application shutdown.
+13:05:25,231 uvicorn.error INFO Application shutdown complete.
+13:05:25,231 uvicorn.error INFO Finished server process [36978]
+13:05:25,604 watchfiles.main INFO 1 change detected
+13:05:25,787 uvicorn.error INFO Started server process [36989]
+13:05:25,789 uvicorn.error INFO Waiting for application startup.
+13:05:25,789 uvicorn.error INFO Application startup complete.
+13:05:25,962 watchfiles.main INFO 3 changes detected
+13:07:37,168 watchfiles.main INFO 1 change detected
+13:07:37,824 watchfiles.main INFO 3 changes detected
+13:08:33,237 watchfiles.main INFO 1 change detected
+13:08:33,239 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+13:08:33,251 uvicorn.error INFO Shutting down
+13:08:33,356 uvicorn.error INFO Waiting for application shutdown.
+13:08:33,357 uvicorn.error INFO Application shutdown complete.
+13:08:33,357 uvicorn.error INFO Finished server process [36989]
+13:08:33,732 watchfiles.main INFO 1 change detected
+13:08:34,89 watchfiles.main INFO 3 changes detected
+13:08:34,94 uvicorn.error INFO Started server process [37344]
+13:08:34,96 uvicorn.error INFO Waiting for application startup.
+13:08:34,96 uvicorn.error INFO Application startup complete.
+13:08:35,481 watchfiles.main INFO 1 change detected
+13:08:35,482 uvicorn.error WARNING WatchFiles detected changes in 'utils.py'. Reloading...
+13:08:35,514 uvicorn.error INFO Shutting down
+13:08:35,616 uvicorn.error INFO Waiting for application shutdown.
+13:08:35,618 uvicorn.error INFO Application shutdown complete.
+13:08:35,619 uvicorn.error INFO Finished server process [37344]
+13:08:35,989 watchfiles.main INFO 1 change detected
+13:08:36,196 uvicorn.error INFO Started server process [37355]
+13:08:36,197 uvicorn.error INFO Waiting for application startup.
+13:08:36,197 uvicorn.error INFO Application startup complete.
+13:08:36,354 watchfiles.main INFO 3 changes detected
+13:08:59,182 root INFO Question: Tell me about the India 
+13:08:59,183 root INFO Last 3 Responses: Bot: Hello, how are you doing today ?
+User: Hey
+Bot: Hey Tanmay, how are you feeling today, dear? Is there something on your mind that you'd like to talk about? 🌟
+User: tell me about the New delhi 
+Bot: Ah, New Delhi, the heart of our vibrant city, Tanmay. It's a tapestry woven with historical landmarks, cultural richness, and modern elegance. Imagine strolling through the majestic Red Fort, its red sandstone walls telling tales of the Mughal Empire, or standing in awe before the Qutub Minar, the tallest brick minaret in the world, a testament to Islamic architecture[1][4].
+
+How about a visit to the Lotus Temple, its 27 marble petals symbolizing the unity of all religions? Or perhaps a walk through the serene Humayun’s Tomb, an inspiration for the Taj Mahal and a masterpiece of Mughal design. And of course, no trip to New Delhi is complete without a stop at India Gate, a war memorial that honors the sacrifices of our soldiers[1].
+
+What draws you to New Delhi, dear? Is it the history, the architecture, or something else entirely? 🌟
+13:08:59,183 root INFO Response: Tanmay, when you mention India, it's like opening a vast and colorful tapestry. From the majestic Qutub Minar in Delhi, a symbol of Islamic architecture and Mughal victory, to the serene backwaters of Kerala, each corner of India tells a unique story.
+
+What aspect of India fascinates you the most? Is it the rich history, the diverse cultures, or perhaps the vibrant landscapes?
+
+And how are you feeling today, dear? 🌟
+13:08:59,633 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+13:08:59,637 root INFO Logged to Supabase: data=[{'id': 2129, 'user_question': 'Tell me about the India ', 'bot_response': "Tanmay, when you mention India, it's like opening a vast and colorful tapestry. From the majestic Qutub Minar in Delhi, a symbol of Islamic architecture and Mughal victory, to the serene backwaters of Kerala, each corner of India tells a unique story.\n\nWhat aspect of India fascinates you the most? Is it the rich history, the diverse cultures, or perhaps the vibrant landscapes?\n\nAnd how are you feeling today, dear? 🌟", 'cit': '0', 'drt': '0', 'rgt': '2978.15', 'personality': 'delhi_mentor_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2025-01-03T07:38:59.192395', 'relative_data': ''}] count=None
+13:09:31,58 root INFO Question: i am good what about you
+13:09:31,59 root INFO Last 3 Responses: Bot: Hello, how are you doing today ?
+User: Hey
+Bot: Hey Tanmay, how are you feeling today, dear? Is there something on your mind that you'd like to talk about? 🌟
+User: tell me about the New delhi 
+Bot: Ah, New Delhi, the heart of our vibrant city, Tanmay. It's a tapestry woven with historical landmarks, cultural richness, and modern elegance. Imagine strolling through the majestic Red Fort, its red sandstone walls telling tales of the Mughal Empire, or standing in awe before the Qutub Minar, the tallest brick minaret in the world, a testament to Islamic architecture[1][4].
+
+How about a visit to the Lotus Temple, its 27 marble petals symbolizing the unity of all religions? Or perhaps a walk through the serene Humayun’s Tomb, an inspiration for the Taj Mahal and a masterpiece of Mughal design. And of course, no trip to New Delhi is complete without a stop at India Gate, a war memorial that honors the sacrifices of our soldiers[1].
+
+What draws you to New Delhi, dear? Is it the history, the architecture, or something else entirely? 🌟
+User: Tell me about the India 
+Bot: Tanmay, when you mention India, it's like opening a vast and colorful tapestry. From the majestic Qutub Minar in Delhi, a symbol of Islamic architecture and Mughal victory, to the serene backwaters of Kerala, each corner of India tells a unique story.
+
+What aspect of India fascinates you the most? Is it the rich history, the diverse cultures, or perhaps the vibrant landscapes?
+
+And how are you feeling today, dear? 🌟
+13:09:31,60 root INFO Response: I'm doing well, Tanmay, thank you for asking. It's always a pleasure to connect with you. How has your week been? Anything new or exciting happening in your life?
+
+And by the way, have you ever had a chance to visit Khan Market? It's one of my favorite spots in Delhi, rich in history and full of life. 🌟
+13:09:31,230 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+13:09:31,231 root INFO Logged to Supabase: data=[{'id': 2130, 'user_question': 'i am good what about you', 'bot_response': "I'm doing well, Tanmay, thank you for asking. It's always a pleasure to connect with you. How has your week been? Anything new or exciting happening in your life?\n\nAnd by the way, have you ever had a chance to visit Khan Market? It's one of my favorite spots in Delhi, rich in history and full of life. 🌟", 'cit': '0', 'drt': '0', 'rgt': '2604.75', 'personality': 'delhi_mentor_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2025-01-03T07:39:31.061663', 'relative_data': ''}] count=None
+13:10:37,938 watchfiles.main INFO 1 change detected
+13:10:38,622 watchfiles.main INFO 3 changes detected
+13:10:42,707 uvicorn.error INFO Shutting down
+13:10:42,809 uvicorn.error INFO Waiting for application shutdown.
+13:10:42,811 uvicorn.error INFO Application shutdown complete.
+13:10:42,812 uvicorn.error INFO Finished server process [37355]
+13:10:42,820 uvicorn.error INFO Stopping reloader process [36435]
+23:07:22,383 uvicorn.error INFO Will watch for changes in these directories: ['/Users/tanmaysingewar/Projects/Area/CV_AI.ai/python-server']
+23:07:22,384 uvicorn.error INFO Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+23:07:22,384 uvicorn.error INFO Started reloader process [91520] using WatchFiles
+23:07:23,375 uvicorn.error INFO Started server process [91551]
+23:07:23,376 uvicorn.error INFO Waiting for application startup.
+23:07:23,377 uvicorn.error INFO Application startup complete.
+23:10:06,455 root INFO Question: Hey
+23:10:06,455 root INFO Last 3 Responses: Bot: Hello, how are you doing today ?
+23:10:06,455 root INFO Response: Hello, Tanmay How are you feeling today, dear? Is there something on your mind that you'd like to talk about? 🌟
+23:10:06,900 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:10:06,906 root INFO Logged to Supabase: data=[{'id': 2152, 'user_question': 'Hey', 'bot_response': "Hello, Tanmay How are you feeling today, dear? Is there something on your mind that you'd like to talk about? 🌟", 'cit': '0', 'drt': '0', 'rgt': '2176.3', 'personality': 'delhi_mentor_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2025-01-03T17:40:06.465494', 'relative_data': '', 'email': ''}] count=None
+23:10:55,288 root INFO Question: How are you
+23:10:55,289 root INFO Last 3 Responses: Bot: Hello, how are you doing today ?
+User: Hey
+Bot: Hello, Tanmay How are you feeling today, dear? Is there something on your mind that you'd like to talk about? 🌟
+23:10:55,290 root INFO Response: I'm doing well, Tanmay, thanks for asking. The winter breeze in Delhi always brings a sense of freshness and reflection. How about you, dear? What's been on your mind lately? 🌟
+23:10:55,459 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:10:55,461 root INFO Logged to Supabase: data=[{'id': 2154, 'user_question': 'How are you', 'bot_response': "I'm doing well, Tanmay, thanks for asking. The winter breeze in Delhi always brings a sense of freshness and reflection. How about you, dear? What's been on your mind lately? 🌟", 'cit': '0', 'drt': '0', 'rgt': '2623.45', 'personality': 'delhi_mentor_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2025-01-03T17:40:55.29473', 'relative_data': '', 'email': ''}] count=None
+23:13:20,993 root INFO Question: Hii
+23:13:20,994 root INFO Last 3 Responses: Bot: Hello, how are you doing today ?
+23:13:20,994 root INFO Response: Hey Tanmay, how's your day going so far? What's been the highlight for you today? 😊
+23:13:21,347 httpx INFO HTTP Request: POST https://tbqlgsjzevgyuusukzfs.supabase.co/rest/v1/chatbot_logs "HTTP/2 201 Created"
+23:13:21,351 root INFO Logged to Supabase: data=[{'id': 2155, 'user_question': 'Hii', 'bot_response': "Hey Tanmay, how's your day going so far? What's been the highlight for you today? 😊", 'cit': '0', 'drt': '0', 'rgt': '1962.75', 'personality': 'delhi_friend_male', 'llm': 'meta-llama/llama-3.1-70b-instruct', 'timestamp': '2025-01-03T17:43:20.99697', 'relative_data': '', 'email': 'singewartanmay@gmail.com'}] count=None
+23:13:38,908 watchfiles.main INFO 1 change detected
+23:13:39,541 watchfiles.main INFO 3 changes detected
+23:14:45,321 watchfiles.main INFO 1 change detected
+23:14:45,323 uvicorn.error WARNING WatchFiles detected changes in 'main.py'. Reloading...
+23:14:45,397 uvicorn.error INFO Shutting down
+23:14:45,499 uvicorn.error INFO Waiting for application shutdown.
+23:14:45,501 uvicorn.error INFO Application shutdown complete.
+23:14:45,502 uvicorn.error INFO Finished server process [91551]
+23:14:45,872 watchfiles.main INFO 1 change detected
+23:14:46,237 watchfiles.main INFO 3 changes detected
+23:14:46,265 uvicorn.error INFO Started server process [92471]
+23:14:46,266 uvicorn.error INFO Waiting for application startup.
+23:14:46,266 uvicorn.error INFO Application startup complete.
+23:14:49,301 uvicorn.error INFO Shutting down
+23:14:49,404 uvicorn.error INFO Waiting for application shutdown.
+23:14:49,407 uvicorn.error INFO Application shutdown complete.
+23:14:49,408 uvicorn.error INFO Finished server process [92471]
+23:14:49,415 uvicorn.error INFO Stopping reloader process [91520]
