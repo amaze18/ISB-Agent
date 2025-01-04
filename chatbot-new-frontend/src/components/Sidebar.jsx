@@ -25,7 +25,7 @@ import delhi_friend_female from "@/photos/delhi_friend_female.jpeg";
 const bot_details = [
   {
     quote:
-      "Passionate about Ghalib’s and Rumi’s poetry. Life’s deepest lessons can be found in poetry, I think. Here to see life through with you.",
+      "Passionate about Entreprenuership and conntecting dots. Life’s deepest lessons can be found in building things, I think. Here to help you build your next thing.",
     name: "Saumya Kumar",
     designation: ` Dlabs CEO
           Persona: Mentor
@@ -36,7 +36,7 @@ const bot_details = [
   },
   {
     quote:
-      "Zindagi bas dil se jeete raho. Here to be your wisdom whisperer. ",
+      "Career academic with prolific research in finance and one of the most famous faces among students at ISB. Leading Dlabs@ISB to bring a lasting impact in the world of entreprenuership",
     name: "Bhagwan Chowdhry",
     designation: `Professor ISB
           Persona: Mentor
@@ -47,7 +47,7 @@ const bot_details = [
   },
   {
     quote:
-      "I’ll be your truest friend, I promise. I’m a Delhi boy through and through. I can be funny, you know?",
+      "Bhagwan and Team can help you with your queries around entreprenuership and how I-venture at ISB can help you build on your next idea.",
     name: "Bhagwan and Team",
     designation: `I-venture Team
           Persona: Friend
@@ -58,7 +58,7 @@ const bot_details = [
   },
   {
     quote:
-      "I’m the friend you’ve been searching for your whole life. I’ve come to stay, I’ll be here with you when no one else seems to.",
+      "Saumya and Team can help you with your queries around entreprenuership and how I-venture at ISB can help you build on your next idea.",
     name: "Saumya and Team",
     designation: `I-venture Team
           Persona: Friend
@@ -203,7 +203,7 @@ export const Logo = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         className="font-medium text-black dark:text-white whitespace-pre">
-        Novi AI
+        Dlabs@ISB AI
       </motion.span>
     </Link>)
   );
