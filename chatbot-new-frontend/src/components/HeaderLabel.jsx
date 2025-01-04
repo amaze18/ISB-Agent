@@ -13,7 +13,7 @@ export async function HeaderLabel() {
             `inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`,
           )}
         >
-          Introducing your companions from New Delhi, India
+          Introducing your chat companion for Yo I-venture @ ISB. Customizable and friendly! 
         </span>
         <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
       </AnimatedGradientText>
