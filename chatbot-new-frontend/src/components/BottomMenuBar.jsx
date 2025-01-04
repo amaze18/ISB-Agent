@@ -30,11 +30,11 @@ export function FloatingDockDemo() {
       component : <AddBot/>
     },
     {
-      title: "Profile",
+      title: "Dlabs website",
       icon: (
         <IconUser className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://i-venture.org/",
       action : "profile",
       component : <Profile/>
     }
