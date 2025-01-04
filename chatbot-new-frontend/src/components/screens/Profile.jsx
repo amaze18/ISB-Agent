@@ -27,8 +27,8 @@ function Profile() {
             className="h-24 w-24 rounded-3xl object-cover object-center" />
         </div>
         <div className='text-center'>
-          <p className='font-semibold'>James Kim</p>
-          <p className='text-xs'>jameskim@datapro.ai</p>
+          <p className='font-semibold'>Saumya Kumar</p>
+          <p className='text-xs'>i-venture@isb.edu</p>
         </div>
       </div>
       <p className='text-center text-sm underline cursor-pointer' onClick={handleLogout}>
