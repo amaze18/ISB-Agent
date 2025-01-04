@@ -67,7 +67,7 @@ export default function Home() {
           {/* <p className="text-center text-sm font-[300] mt-5"></p> */}
           {/* <TextGenerateEffect words={"NOVI AI"} className={"text-6xl font-thin mb-8 mt-10"} />
          <TextGenerateEffect className={"font-thin mb-8 mt-10 text-sm"} words={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."} /> */}
-          <Link href="/signup">
+          <Link href="/chat">
             <RainbowButton className="mt-10" >Start Chatting</RainbowButton>
           </Link>
         </div>

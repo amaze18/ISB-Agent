@@ -295,12 +295,12 @@ const Dashboard = ({ traits, language }) => {
 
   const { userDetails } = useUser();
 
-  // Move the navigation logic into useEffect
-  useEffect(() => {
-    if (!userDetails.name) {
-      router.push('/signup');
-    }
-  }, [userDetails.name, router]);
+  // Used for authentication, commenting now, Move the navigation logic into useEffect
+ // useEffect(() => {
+ //   if (!userDetails.name) {
+  //    router.push('/signup');
+  //  }
+ // }, [userDetails.name, router]);
 
   useEffect(() => {
     setMessages([{ text: "Hello, how are you doing today ?", sender: 'bot' }]); // Reset messages to empty array
