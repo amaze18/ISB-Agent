@@ -458,19 +458,22 @@ const Dashboard = ({ traits, language }) => {
 
       console.log(editablePrompts[selectedBotId])
 
-      const response = await fetch("https://summaryapi.iamtanmay.in/cv/chat", {
+      const response = await fetch("https://i-venturebot-production.up.railway.app/api/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          question: input,
+          // question: input,
+          prompt: input,
           // llm: "meta-llama/llama-3.1-70b-instruct",
-          personality: selectedBotId,
-          personality_prompt: editablePrompts[selectedBotId],
-          last_three_responses: getLastEightBotResponses(),
-          conversationId: 1,
-          email: userDetails.email
+          // personality: selectedBotId,
+          personality: "male",
+          message_history: []
+          // personality_prompt: editablePrompts[selectedBotId],
+          // last_three_responses: getLastEightBotResponses(),
+          // conversationId: 1,
+          // email: userDetails.email
         }),
       });
       const data = await response.json();
