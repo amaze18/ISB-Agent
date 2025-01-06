@@ -477,10 +477,10 @@ const Dashboard = ({ traits, language }) => {
         }),
       });
       const data = await response.json();
-      console.log(data.response);
+      console.log(data.rag_response);
 
       setIsTyping(false);
-      setMessages(prev => [...prev, { text: `RAG ANSWER:\n ${data.response.rag_response} \n\n WEB ANSWER: \n ${data.response.web_response}`, sender: 'bot' }]);
+      setMessages(prev => [...prev, { text: `RAG ANSWER:\n ${data.rag_response} \n\n WEB ANSWER: \n ${data.web_response}`, sender: 'bot' }]);
       scrollToBottom();
     }
   };
