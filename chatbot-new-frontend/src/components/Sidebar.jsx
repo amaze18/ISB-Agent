@@ -480,7 +480,7 @@ const Dashboard = ({ traits, language }) => {
       console.log(data.rag_response);
 
       setIsTyping(false);
-      setMessages(prev => [...prev, { text: `RAG ANSWER:\n ${data.rag_response} \n\n WEB ANSWER: \n ${data.web_response}`, sender: 'bot' }]);
+      setMessages(prev => [...prev, { text: data.rag_response, sender: 'bot' }]);
       scrollToBottom();
     }
   };
