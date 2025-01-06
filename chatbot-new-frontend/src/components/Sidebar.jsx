@@ -468,8 +468,8 @@ const Dashboard = ({ traits, language }) => {
           prompt: input,
           // llm: "meta-llama/llama-3.1-70b-instruct",
           // personality: selectedBotId,
-          personality: "male",
-          message_history: []
+          message_history: getLastEightBotResponses(),
+          personality:  editablePrompts[selectedBotId]
           // personality_prompt: editablePrompts[selectedBotId],
           // last_three_responses: getLastEightBotResponses(),
           // conversationId: 1,
