@@ -512,7 +512,7 @@ const Dashboard = ({ traits, language }) => {
               >
                 {msg.sender === 'bot' ? (
                   <motion.p className=" text-gray-500 dark:text-neutral-300">
-                    {msg.text.split(" ").map((word, index) => (
+                    {msg.map((word, index) => (
                       <motion.span
                         key={index}
                         initial={{
