@@ -12,7 +12,7 @@ import time
 import json
 
 from datetime import datetime, timedelta, timezone
-
+from create_supa_table import table_create
 from pinecone.grpc import PineconeGRPC as Pinecone # type: ignore
 from pinecone import ServerlessSpec # type: ignore
 
@@ -61,7 +61,8 @@ async def log_to_supabase(message,email,bot_id,bot_response,relative_data,extrac
         "extracted_data" : extracted_data,
     }
 
-    response = supabase.table("new_message_logs").insert(data).execute()
+    table_name=table_create("new_message_logs")
+    response = supabase.table(table_name).insert(data).execute()
 
     return response
 
@@ -73,7 +74,8 @@ async def log_retrieve_memory_data(previous_conversations,extracted_data,email,b
         "bot_id" : bot_id,
     }
 
-    response = supabase.table("retrieve_memory_data").insert(data).execute()
+    table_name=table_create("retrieve_memory_data")
+    response = supabase.table(table_name).insert(data).execute()
 
     return response
 
@@ -89,7 +91,8 @@ def log_messages_with_like_dislike(user_email,bot_id,user_message,bot_response,f
         "memory_extracted": ""
     }
 
-    res = supabase.table("log_messages_with_like_dislike").insert(data).execute()
+    table_name=table_create("log_messages_with_like_dislike")
+    res = supabase.table(table_name).insert(data).execute()
     return res
 
 def log_notes_memory(notes,extracted_data,email,bot_id):
@@ -100,12 +103,16 @@ def log_notes_memory(notes,extracted_data,email,bot_id):
         "bot_id": bot_id
     }
 
-    res = supabase.table("notes").insert(data).execute()
+    table_name=table_create("notes")
+    res = supabase.table(table_name).insert(data).execute()
+
     return res
 
 def like_dislike(message_id,like_or_dislike):
-    return supabase.table("log_messages_with_like_dislike").update({"feedback" : like_or_dislike}).eq("id", message_id).execute()
+    table_name=table_create("log_messages_with_like_dislike")
+    return supabase.table(table_name).update({"feedback" : like_or_dislike}).eq("id", message_id).execute()
 
+# last 20 messages 
 def restrict_to_last_20_messages(messages):
     return messages[-20:]
 
