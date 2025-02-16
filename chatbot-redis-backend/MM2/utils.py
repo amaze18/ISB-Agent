@@ -25,7 +25,7 @@ from prompt import ORIGIN_IDENTIFICATION_SYSTEM_PROMPT,REMINDER_BLEND_RESPONSE_S
 pc = Pinecone(api_key=os.getenv("PINECONE_API"))
 
 # Create a serverless index
-index_name = "noviai-mm2"
+index_name = "noviai-mm-service-isb"
 
 if not pc.has_index(index_name):
     pc.create_index(
