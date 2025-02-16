@@ -12,7 +12,7 @@ import time
 import json
 
 from datetime import datetime, timedelta, timezone
-from create_supa_table import table_create
+from create_infra import table_create, select_model
 from pinecone.grpc import PineconeGRPC as Pinecone # type: ignore
 from pinecone import ServerlessSpec # type: ignore
 
@@ -58,10 +58,10 @@ async def log_to_supabase(message,email,bot_id,bot_response,relative_data,extrac
         "bot_id" : bot_id,
         "bot_response" : bot_response,
         "vector_retrieved_data" : relative_data,
-        "extracted_data" : extracted_data,
+        "extracted_data" : extracted_data,   
     }
-
-    table_name=table_create("new_message_logs")
+    username= "ISB-Dlabs"
+    table_name=table_create("new_message_logs", username)
     response = supabase.table(table_name).insert(data).execute()
 
     return response
@@ -73,8 +73,8 @@ async def log_retrieve_memory_data(previous_conversations,extracted_data,email,b
         "email" : email,
         "bot_id" : bot_id,
     }
-
-    table_name=table_create("retrieve_memory_data")
+    username= "ISB-Dlabs"
+    table_name=table_create("retrieve_memory_data", username)
     response = supabase.table(table_name).insert(data).execute()
 
     return response
@@ -91,7 +91,8 @@ def log_messages_with_like_dislike(user_email,bot_id,user_message,bot_response,f
         "memory_extracted": ""
     }
 
-    table_name=table_create("log_messages_with_like_dislike")
+    username= "ISB-Dlabs"
+    table_name=table_create("log_messages_with_like_dislike", username)
     res = supabase.table(table_name).insert(data).execute()
     return res
 
@@ -103,20 +104,26 @@ def log_notes_memory(notes,extracted_data,email,bot_id):
         "bot_id": bot_id
     }
 
-    table_name=table_create("notes")
+    username= "ISB-Dlabs"
+    table_name=table_create("notes", username)
     res = supabase.table(table_name).insert(data).execute()
 
     return res
 
 def like_dislike(message_id,like_or_dislike):
-    table_name=table_create("log_messages_with_like_dislike")
+    username= "ISB-Dlabs"
+    table_name=table_create("log_messages_with_like_dislike", username)
     return supabase.table(table_name).update({"feedback" : like_or_dislike}).eq("id", message_id).execute()
 
 # last 20 messages 
 def restrict_to_last_20_messages(messages):
     return messages[-20:]
 
-async def call_openai_api(messages,model="gpt-4o"):
+# model name to be parameterized for mm as service
+
+model="gpt-4o"
+model_name= select_model(model)
+async def call_openai_api(messages,model=model_name):
     print(f"Calling to OpenAI API with model: {model}")
     client = AsyncOpenAI(
         # base_url="https://api.novita.ai/v3/openai",
