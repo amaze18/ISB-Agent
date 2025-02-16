@@ -12,7 +12,7 @@ import time
 import json
 
 from datetime import datetime, timedelta, timezone
-from create_infra import table_create, select_model
+from create_infra import create_table, select_model
 from pinecone.grpc import PineconeGRPC as Pinecone # type: ignore
 from pinecone import ServerlessSpec # type: ignore
 
