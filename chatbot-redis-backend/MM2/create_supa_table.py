@@ -1,2 +1,2 @@
-def create_table(tabname):
-  return tabname
+def create_table(tabname, username):
+  return tabname +"-"+ username
