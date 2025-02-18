@@ -1,19 +1,22 @@
-# Categorize the user message and rephrase it 
-# Dynamic category retrieval
+# All Function Imports 
 import json
-from utils import format_client_conversation,extract_json_from_text,call_openai_api
+import os
+from datetime import datetime, timedelta, timezone
 
-from prompt import CATEGORY_IDENTIFIER_SYSTEM_PROMPT,REMINDER_SYSTEM_PROMPT
+from dotenv import load_dotenv # type: ignore
+load_dotenv()
+
+from memory_service.utils import connect_pinecone,extract_json_from_text,call_openai_api,format_client_conversation
+from memory_service.prompt import CATEGORY_IDENTIFIER_SYSTEM_PROMPT
 
 import datetime
 
-from utils import connect_pinecone
 pc,index = connect_pinecone()
 
+# Retrieve Memory
 async def retrieve_memory(query,email,bot_id,previous_conversation):
-    
     if query == "":
-        return "",""
+        return "","",""
     
     messages = [
         {
@@ -32,8 +35,6 @@ async def retrieve_memory(query,email,bot_id,previous_conversation):
         """
     })
 
-    # res = call_novita_ai_api(messages,model="deepseek/deepseek_v3")
-
     # Rephrased the user query and categorized it
     res = await call_openai_api(messages)
 
@@ -48,9 +49,6 @@ async def retrieve_memory(query,email,bot_id,previous_conversation):
 
     # Get the category from the extracted data
     category = str(extracted['category'])
-
-    # if memory_required == False:
-    #     return "",rephrased,category
 
     # Convert the query into a numerical vector that Pinecone can search
     query_embedding = pc.inference.embed(
@@ -103,36 +101,5 @@ async def retrieve_memory(query,email,bot_id,previous_conversation):
     for e in sorted_matches:
         matches_string += f"""{e["metadata"]["text"]}\nCreated at: {e["metadata"]["created_at"]}\n--------------------\n"""
         
-    print(matches_string)
+    # print(matches_string)
     return matches_string,rephrased,category
-
-
-async def reminder_response(user_message,previous_conversation,request_time):
-
-    messages = [
-        {
-            "role": "system",
-            "content": REMINDER_SYSTEM_PROMPT
-        }
-    ]
-
-    messages.extend(previous_conversation)
-
-    messages.append({
-        "role": "user",
-        "content": f"""    
-        User Message: {user_message} 
-        Current Time: {request_time}
-        """
-    })
-
-    # Call the OpenAI API to identify the reminder time and generate the response 
-    res = await call_openai_api(messages,model="o3-mini")
-
-    # Extract the JSON from the response - It will accept the text in between { and } and drop the rest
-    json_str = extract_json_from_text(res)
-
-    # Parse the JSON string
-    extracted = json.loads(json_str)
-
-    return extracted

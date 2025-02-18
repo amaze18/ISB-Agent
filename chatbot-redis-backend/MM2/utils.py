@@ -12,7 +12,7 @@ import time
 import json
 
 from datetime import datetime, timedelta, timezone
-from create_infra import create_table, select_model
+from create_infra import table_create, select_model
 from pinecone.grpc import PineconeGRPC as Pinecone # type: ignore
 from pinecone import ServerlessSpec # type: ignore
 
@@ -126,8 +126,6 @@ model_name= select_model(model)
 async def call_openai_api(messages,model=model_name):
     print(f"Calling to OpenAI API with model: {model}")
     client = AsyncOpenAI(
-        # base_url="https://api.novita.ai/v3/openai",
-        # Get the Novita AI API Key by referring to: https://novita.ai/docs/get-started/quickstart.html#_2-manage-api-key.
         api_key= os.getenv("OPENAI_API_KEY"),
     )
 
@@ -153,6 +151,8 @@ async def call_openai_api(messages,model=model_name):
 
 async def call_novita_ai_api(messages,model = "meta-llama/llama-3.3-70b-instruct"):
     client = AsyncOpenAI(
+        # base_url="https://api.novita.ai/v3/openai",
+        # Get the Novita AI API Key by referring to: https://novita.ai/docs/get-started/quickstart.html#_2-manage-api-key.
         base_url="https://api.novita.ai/v3/openai",
         api_key= os.getenv("NOVITA_API_KEY"),
     )
@@ -352,51 +352,75 @@ def extract_json_from_text(text):
         return text
     
 #________________________________________________________________________________________________________________________________________________________________________________
-    
+
+# Function to check if an entry exists in the last_cat_message table
 async def check_entry_exists(email, bot_id):
+    # Query the last_cat_message table
     response = supabase.table("last_cat_message").select("message_id").eq("email", email).eq("bot_id", bot_id).execute()
+    # Check if the response is empty
     if response.data == []:
         created = supabase.table("last_cat_message").insert({"email" : email,"bot_id" : bot_id,"message_id" : ""}).execute()
         return "Created"
+    # Return the response
     return response
 
 
+# Function to get messages from the messages table
 async def get_messages(email, bot_id, message_id):
+    # Query the messages table
     query = supabase.table("messages").select("*").eq("email", email).eq("bot_id", bot_id)
     
     # Only add the gt filter if message_id is not empty
     if message_id:
         query = query.gt("id", message_id)
         
+    # Limit the number of messages to 20
     response = query.limit(20).order("created_at").execute()
     return response
 
 import post_processing
 
+# Function to extract memory from the messages
 async def extractor(email, bot_id, message_id):
     try:
+        # Get the messages for the given email, bot_id, and message_id
         messages = await get_messages(email, bot_id, message_id)
+
+        # Check if the messages are empty
         if messages.data == []:
             return
             
+        # Get the number of messages
         msg_count = len(messages.data)
         print("message Length:", msg_count)
         
         # Process if more than 5 messages
         if msg_count >= 5:
+            # Extract memory from the messages
             await post_processing.extract_memory(messages.data, email, bot_id)
+
+            # Update the last message id in the last_cat_message table
+            # !Sensitive table - If it fails then all the data extraction will start from the beginning
             supabase.table("last_cat_message").update({"message_id": messages.data[-1]['id']}).eq("email", email).eq("bot_id", bot_id).execute()
             print("Data Extraction after 5 messages")
             
         # Only check time-based condition for 1-4 messages
         elif msg_count > 0:
             try:
+                # Get the last message time
                 last_message_time = datetime.fromisoformat(messages.data[0]['created_at'])
+                # Calculate the time difference between now and the last message time
                 time_diff = datetime.now(timezone.utc) - last_message_time
                 
+                # If the time difference is greater than 5 minutes, extract memory
                 if time_diff > timedelta(minutes=5):
                     print("Data Extraction after 5 minutes")
+
+                    # Extract memory from the messages
                     await post_processing.extract_memory(messages.data, email, bot_id)
+
+                    # Update the last message id in the last_cat_message table
+                    # !Sensitive table - If it fails then all the data extraction will start from the beginning
                     supabase.table("last_cat_message").update({"message_id": messages.data[-1]['id']}).eq("email", email).eq("bot_id", bot_id).execute()
 
             except (IndexError, AttributeError) as e:
@@ -407,18 +431,24 @@ async def extractor(email, bot_id, message_id):
 
 import asyncio
 async def checker():
+    # last_cat_message table is used to store the last message id for each email and bot_id combination
     response = supabase.table("last_cat_message").select("*").execute() 
+    # Check if the table is empty
     if response.data == []:
         print("No data found in last_cat_message table")
         return
+    # Process the data
     else:
         print(f"Found {len(response.data)} records to process")
+        # Iterate over the data
         for data in response.data:
             try:
+                # Call the extractor function
                 await extractor(data['email'], data['bot_id'], data['message_id'])
             except Exception as e:
                 print(f"Error in extractor: {e}")
 
+# Function to insert a new entry into the messages table
 async def insert_entry(email, user_message, bot_response, bot_id):
     response = supabase.table("messages").insert({
         "email": email,

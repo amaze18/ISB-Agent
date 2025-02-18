@@ -1,4 +1,4 @@
-def create_table(tabname, username):
+def table_create(tabname, username):
   return tabname +"-"+ username
 
 def select_model(model):

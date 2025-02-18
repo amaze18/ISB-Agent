@@ -458,6 +458,7 @@ const Dashboard = ({ traits, language }) => {
 
       console.log(editablePrompts[selectedBotId])
 
+      //  Response from MM2 from railway
       const response = await fetch("https://i-venturebot-production.up.railway.app/api/chat", {
         method: "POST",
         headers: {
